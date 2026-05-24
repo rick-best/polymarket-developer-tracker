@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Market Intelligence — Polymarket Developer Tracker</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .page { max-width: 980px; }
+      .muted { color: rgba(236,245,255,0.75); }
+      .toolbar { display:flex; gap:12px; flex-wrap:wrap; margin: 18px 0 28px; }
+      .toolbar a { display:inline-block; padding:10px 12px; border-radius: 12px; border: 1px solid rgba(124,183,255,0.25); background: rgba(9,15,27,0.6); color: #eef5ff; text-decoration:none; }
+      .table { width: 100%; border-collapse: collapse; margin: 18px 0 28px; }
+      .table caption { text-align: left; font-weight: 650; margin-bottom: 10px; }
+      .table th, .table td { border-bottom: 1px solid rgba(124,183,255,0.15); padding: 10px 8px; vertical-align: top; }
+      .table th { text-align: left; font-size: 13px; color: rgba(236,245,255,0.85); }
+      .table td { font-size: 14px; color: #eef5ff; }
+      code { font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel">
+        <h1>Market Intelligence（只读）</h1>
+        <p class="muted">
+          本页由 <code>site/evidence/daily-latest.json</code> 生成，仅用于展示项目的只读市场/奖励/开发者生态快照，
+          不包含任何下单、授权或资金操作。
+        </p>
+        <div class="toolbar" aria-label="navigation">
+          <a href="../index.html">返回主页</a>
+          <a href="../evidence/index.html">Evidence Trail</a>
+          <a href="../evidence/daily-latest.json">daily-latest.json</a>
+          <a href="../evidence/daily-latest.txt">daily-latest.txt</a>
+          <a href="./market-intel-latest.json">market-intel-latest.json</a>
+          <a href="./market-intel-diff.json">market-intel-diff.json</a>
+        </div>
+        <p class="muted">快照生成时间：<strong>2026-05-25 00:58:54</strong></p>
+      </section>
+
+      <section class="panel">
+        <h2>Diff vs yesterday</h2>
+        
+    <p class="muted">Diff 对比：昨天 vs 今天（基于 evidence 里的最近两份 daily JSON）</p>
+    <ul class="muted">
+      <li>Builders leaderboard 变化：9</li><li>Rewards 样例市场变化：15</li><li>GitHub 仓库变化：1</li>
+    </ul>
+    
+  
+      </section>
+
+      <section class="panel">
+        <table class="table">
+    <caption>Builders Leaderboard（样例）</caption>
+    <thead><tr><th>Project</th><th>One-month volume</th></tr></thead>
+    <tbody><tr><td>Betmoar.fun</td><td>$181.76M</td></tr><tr><td>PolyCop</td><td>$33.30M</td></tr><tr><td>Polymtrade</td><td>$5.69M</td></tr><tr><td>Polygun</td><td>$7.35M</td></tr><tr><td>PolyTraderPro</td><td>$15.27M</td></tr><tr><td>Stand.trade</td><td>$12.67M</td></tr><tr><td>Kreo</td><td>$12.80M</td></tr><tr><td>Polymer</td><td>$657.4</td></tr><tr><td>Jupiter</td><td>$10.73M</td></tr></tbody>
+  </table>
+      </section>
+
+      <section class="panel">
+        <table class="table">
+    <caption>Rewards 页面样例市场（只读快照）</caption>
+    <thead><tr><th>Market</th><th>Max spread</th><th>Min shares</th><th>Reward</th></tr></thead>
+    <tbody><tr><td>Max Spread Min Shares Reward Comp. Earnings Percent Price Changes Games Total: O/U 2.5</td><td>±2¢</td><td>250</td><td>300</td></tr><tr><td>Competition Counter-Strike: EYEBALLERS vs Alliance - Map 1 Winner</td><td>±2¢</td><td>250</td><td>112</td></tr><tr><td>Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs</td><td>±2¢</td><td>250</td><td>749</td></tr><tr><td>Competition Counter-Strike: EYEBALLERS vs Alliance - Map 2 Winner</td><td>±2¢</td><td>250</td><td>112</td></tr><tr><td>Competition Rocket League: Karmine Corp vs Vitality - Game 2 Winner</td><td>±2¢</td><td>250</td><td>13</td></tr><tr><td>Competition Rocket League: Karmine Corp vs Vitality - Game 5 Winner</td><td>±2¢</td><td>250</td><td>13</td></tr><tr><td>Competition Games Total: O/U 5.5</td><td>±2¢</td><td>250</td><td>17</td></tr><tr><td>Competition Rocket League: Karmine Corp vs Vitality - Game 1 Winner</td><td>±2¢</td><td>250</td><td>13</td></tr></tbody>
+  </table>
+      </section>
+
+      <section class="panel">
+        <table class="table">
+    <caption>GitHub 仓库快照（样例）</caption>
+    <thead><tr><th>Repo</th><th>Stars</th><th>Forks</th><th>Open issues</th><th>Pushed at (UTC)</th></tr></thead>
+    <tbody><tr><td>Polymarket/agents</td><td>3558</td><td>795</td><td>44</td><td>2024-11-05T15:40:29Z</td></tr><tr><td>Polymarket/py-clob-client</td><td>1219</td><td>384</td><td>165</td><td>2026-05-11T17:15:19Z</td></tr></tbody>
+  </table>
+      </section>
+    </main>
+  </body>
+</html>

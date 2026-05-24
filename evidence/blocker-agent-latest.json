@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-05-25 00:58:51",
+  "mode": "safe-local-blocker-agent",
+  "completed": {
+    "reportText": "/Users/rickbest/Downloads/polymarket/reports/daily-2026-05-25.txt",
+    "reportJson": "/Users/rickbest/Downloads/polymarket/reports/daily-2026-05-25.json",
+    "siteEvidence": {
+      "evidenceDir": "site/evidence",
+      "copiedDates": [
+        "2026-05-25",
+        "2026-05-24",
+        "2026-05-23",
+        "2026-05-22",
+        "2026-05-20",
+        "2026-05-19",
+        "2026-05-18"
+      ],
+      "latest": "2026-05-25"
+    },
+    "marketIntel": {
+      "ok": true,
+      "error": "",
+      "output": "site/market-intel/index.html",
+      "outputLatestJson": "site/market-intel/market-intel-latest.json",
+      "outputDiffJson": "site/market-intel/market-intel-diff.json"
+    },
+    "communityIntel": {
+      "ok": true,
+      "reportJson": "/Users/rickbest/Downloads/polymarket/reports/community-intel-2026-05-25.json",
+      "reportText": "/Users/rickbest/Downloads/polymarket/reports/community-intel-2026-05-25.txt",
+      "siteHtml": "site/community-intel/index.html",
+      "siteJson": "site/community-intel/community-intel-latest.json"
+    }
+  },
+  "runtime": {
+    "provider": "smtp-email",
+    "providerChain": "smtp-email",
+    "liveReady": false,
+    "emailReady": false,
+    "maskedRecipient": "",
+    "missingLiveConfig": [
+      "ALERT_EMAIL_TO",
+      "EMAIL_FROM",
+      "EMAIL_SMTP_HOST",
+      "EMAIL_SMTP_PORT",
+      "EMAIL_SMTP_USER",
+      "EMAIL_SMTP_PASS"
+    ],
+    "loadedEnvFiles": [
+      "/Users/rickbest/Downloads/polymarket/.env"
+    ]
+  },
+  "assessment": {
+    "blockers": [
+      {
+        "id": "builder-program-confirmation",
+        "title": "Builder Program submitted but not officially confirmed",
+        "status": "monitor-only",
+        "owner": "builder_program_monitor",
+        "nextAction": "Check official email/in-site status and record only explicit acceptance, rejection, application ID, or no-change evidence.",
+        "evidence": [
+          "data/execution-state.json",
+          "reports/",
+          "site/evidence/"
+        ]
+      },
+      {
+        "id": "public-site-hosting-choice",
+        "title": "Public Builder Profile Site needs a confirmed hosting target",
+        "status": "needs-user-choice",
+        "owner": "deployment_ops_guard",
+        "nextAction": "User chooses GitHub Pages, Cloudflare Pages, Netlify, Vercel, or existing Tencent server. Default recommendation remains no-server static hosting.",
+        "evidence": [
+          "docs/public-builder-profile-site.md",
+          "site/"
+        ]
+      },
+      {
+        "id": "server-preflight-required",
+        "title": "Server deployment blocked until existing services are inspected",
+        "status": "needs-read-only-preflight",
+        "owner": "deployment_ops_guard",
+        "nextAction": "Run read-only preflight on the target server: hostname, pwd, processes, listening ports, running services, timers, and crontab.",
+        "evidence": [
+          "docs/deployment.md",
+          "automation/polymarket-blocker-agent.service.example"
+        ]
+      },
+      {
+        "id": "smtp-live-config",
+        "title": "Local SMTP live-send is not ready",
+        "status": "needs-env",
+        "owner": "email_report_agent",
+        "nextAction": "Set missing server environment keys without exposing values: ALERT_EMAIL_TO, EMAIL_FROM, EMAIL_SMTP_HOST, EMAIL_SMTP_PORT, EMAIL_SMTP_USER, EMAIL_SMTP_PASS.",
+        "evidence": [
+          "docs/deployment.md",
+          "data/execution-state.json"
+        ]
+      },
+      {
+        "id": "hard-stop-actions",
+        "title": "Trading, wallet, API-key, public-post, account-change, live deploy, and live email actions require explicit action-time confirmation",
+        "status": "hard-stop",
+        "owner": "credential_trading_safety_reviewer",
+        "nextAction": "Keep these actions out of autonomous runs. Emit them as manual confirmations only.",
+        "evidence": [
+          "NEXT_ACTION_QUEUE.md",
+          "AGENTS.md"
+        ]
+      }
+    ],
+    "automaticActions": [
+      "Refresh official read-only snapshot and keep submission status evidence current.",
+      "Keep report generation in dry-run mode and avoid live email send."
+    ],
+    "manualActions": [
+      "Choose one static hosting target or explicitly choose Tencent server with preflight.",
+      "Approve/complete server preflight before enabling any server timer."
+    ],
+    "hardStopActionTypes": [
+      "trade",
+      "order",
+      "deposit",
+      "withdraw",
+      "wallet-signing",
+      "wallet-connect",
+      "approval",
+      "api-key-create",
+      "public-post",
+      "account-change",
+      "live-deploy",
+      "live-email"
+    ]
+  },
+  "nextSafeAction": "Refresh official read-only snapshot and keep submission status evidence current."
+}

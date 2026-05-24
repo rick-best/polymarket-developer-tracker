@@ -1,0 +1,76 @@
+Polymarket Developer Participation 日报：开发者参与进度 / 2026-05-23
+
+Polymarket Developer Participation 自动日报。
+
+发送时间：2026-05-23 21:03:39 Asia/Shanghai
+贡献钱包地址：0x31d2621184901ea3fb3b11299a40f495f8e08ed1
+Builder Code：已配置
+Builder API Key：已配置
+执行热钱包：0xaC7f1a140771d35d6930091C1D1b4142F101F6bD（MetaMask: imported）
+
+一、今天执行/自动检查
+- 已按官方来源检查 Polymarket Builders、Docs、Rewards、GitHub 状态。
+- 日报任务默认只做信息收集和邮件发送，不自动下单、不刷量、不执行授权交易。
+- 官方链接进入表单或钱包授权前仍需二次核对。
+
+二、官方入口状态
+- Polymarket: verified https://polymarket.com/
+- Polymarket Builders: verified https://builders.polymarket.com/
+- Polymarket Docs: verified https://docs.polymarket.com/
+- Polymarket GitHub: verified https://github.com/Polymarket
+- Polymarket Agents: verified https://github.com/Polymarket/agents
+- Polymarket X: verified https://x.com/Polymarket
+- Polymarket Builders X: verified https://x.com/PolymarketBuild
+- Polymarket Discord: verified https://discord.gg/polymarket
+- Polymarket Telegram: verified https://t.me/polymarket
+- Polymarket Blog / News: check-before-use https://polymarket.com/blog
+- Polymarket Rewards: verified https://polymarket.com/rewards
+
+三、Builders Program 快照
+- Builders 页面：正常 HTTP 200
+- 申请表字段：Your Project / Product Name / Project Description / Website URL / Email / X Handle / Telegram Handle / Builder API key
+- 当前解析到的 leaderboard 头部项目：
+  1. Betmoar.fun $167.37M
+  2. PolyCop $31.64M
+  3. Polymtrade $4.45M
+  4. Polygun $7.00M
+  5. PolyTraderPro $14.87M
+  6. Stand.trade $11.52M
+  7. Kreo $12.12M
+  8. Polymer $577.4
+  9. Jupiter $10.04M
+
+四、开发文档重点
+- Docs 页面：正常 HTTP 200
+- Builder profile
+- Builder code attribution
+- Gasless relayer
+- Volume tracking
+- Leaderboard
+
+五、Rewards 快照
+- Rewards 页面：正常 HTTP 200
+- Rewards 样例市场：
+  - Comp. Earnings Percent Price Changes Counter-Strike: Team Falcons vs Legacy - Map 4 Winner | spread ±2¢ | min 500 | reward 10
+  - Competition Counter-Strike: Team Falcons vs Legacy - Map 1 Winner | spread ±2¢ | min 500 | reward 10
+  - Competition Counter-Strike: Team Falcons vs Legacy (BO5) - CS Asia Championships Playoffs | spread ±2¢ | min 500 | reward 165
+  - Competition Games Total: O/U 3.5 | spread ±2¢ | min 500 | reward 41
+  - Competition Counter-Strike: Team Falcons vs Legacy - Map 3 Winner | spread ±2¢ | min 500 | reward 10
+  - Competition Counter-Strike: Team Falcons vs Legacy - Map 2 Winner | spread ±2¢ | min 500 | reward 10
+
+六、GitHub 官方仓库
+- Polymarket/agents: stars=3549, forks=792, openIssues=44, pushedAt=2024-11-05T15:40:29Z
+- Polymarket/py-clob-client: stars=1215, forks=383, openIssues=165, pushedAt=2026-05-11T17:15:19Z
+
+七、当前人工待办
+- Builder Program：已提交但未看到明确确认号，需监控邮箱/站内状态。
+- MetaMask 已导入：polymarket 开发者钱包。
+- 确认 SMTP 授权码已配置到 `/etc/polymarket-developer-tracker.env` 或服务器环境变量。
+- 部署服务器前先检查已有进程、端口、cron/systemd，避免影响旧项目。
+
+八、明天计划
+- 完成公开 Builder Profile Site，并准备可部署的网站 URL。
+- 继续强化 Builder Tracker 的官方来源和提交结果监控。
+- 启动只读 Market Intelligence Dashboard 的数据结构设计。
+
+邮件投递说明：SMTP accepted 只代表服务商接受投递，不等于收件箱实际收到。

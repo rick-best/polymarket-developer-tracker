@@ -1,0 +1,267 @@
+{
+  "ok": true,
+  "error": "",
+  "summary": {
+    "todayCollectedAt": "2026-05-25 00:58:54",
+    "yesterdayCollectedAt": "2026-05-24 20:23:39",
+    "changes": {
+      "builders": 9,
+      "rewards": 15,
+      "github": 1,
+      "sectionStatus": 0
+    }
+  },
+  "details": {
+    "sectionStatus": [],
+    "builders": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "key": "Betmoar.fun",
+          "today": {
+            "oneMonthVolume": "$181.76M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$179.54M"
+          }
+        },
+        {
+          "key": "PolyCop",
+          "today": {
+            "oneMonthVolume": "$33.30M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$32.96M"
+          }
+        },
+        {
+          "key": "Polymtrade",
+          "today": {
+            "oneMonthVolume": "$5.69M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$5.37M"
+          }
+        },
+        {
+          "key": "Polygun",
+          "today": {
+            "oneMonthVolume": "$7.35M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$7.31M"
+          }
+        },
+        {
+          "key": "PolyTraderPro",
+          "today": {
+            "oneMonthVolume": "$15.27M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$15.24M"
+          }
+        },
+        {
+          "key": "Stand.trade",
+          "today": {
+            "oneMonthVolume": "$12.67M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$12.60M"
+          }
+        },
+        {
+          "key": "Kreo",
+          "today": {
+            "oneMonthVolume": "$12.80M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$12.73M"
+          }
+        },
+        {
+          "key": "Polymer",
+          "today": {
+            "oneMonthVolume": "$657.4"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$645.1"
+          }
+        },
+        {
+          "key": "Jupiter",
+          "today": {
+            "oneMonthVolume": "$10.73M"
+          },
+          "yesterday": {
+            "oneMonthVolume": "$10.55M"
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "added": [
+        {
+          "key": "Max Spread Min Shares Reward Comp. Earnings Percent Price Changes Games Total: O/U 2.5",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "300"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 1 Winner",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "112"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "749"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 2 Winner",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "112"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Rocket League: Karmine Corp vs Vitality - Game 2 Winner",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "13"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Rocket League: Karmine Corp vs Vitality - Game 5 Winner",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "13"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Games Total: O/U 5.5",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "17"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Rocket League: Karmine Corp vs Vitality - Game 1 Winner",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "13"
+          },
+          "yesterday": null
+        }
+      ],
+      "removed": [
+        {
+          "key": "Comp. Earnings Percent Price Changes Counter-Strike: Leo Team vs GenOne - Map 2 Winner",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "21"
+          }
+        },
+        {
+          "key": "Competition Counter-Strike: Leo Team vs GenOne - Map 1 Winner",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "21"
+          }
+        },
+        {
+          "key": "Competition Games Total: O/U 2.5",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "41"
+          }
+        },
+        {
+          "key": "Competition Counter-Strike: Leo Team vs GenOne (BO3) - CCT Europe Series 2 Group Stage",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "165"
+          }
+        },
+        {
+          "key": "Competition Counter-Strike: SPARTA vs Lazer Cats (BO3) - CCT Europe Series 2 Group Stage",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "165"
+          }
+        },
+        {
+          "key": "Competition Counter-Strike: SPARTA vs Lazer Cats - Map 2 Winner",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "21"
+          }
+        },
+        {
+          "key": "Competition Counter-Strike: SPARTA vs Lazer Cats - Map 1 Winner",
+          "today": null,
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "21"
+          }
+        }
+      ],
+      "changed": []
+    },
+    "github": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "key": "Polymarket/agents",
+          "today": {
+            "stars": 3558,
+            "forks": 795,
+            "openIssues": 44,
+            "pushedAt": "2024-11-05T15:40:29Z"
+          },
+          "yesterday": {
+            "stars": 3557,
+            "forks": 795,
+            "openIssues": 44,
+            "pushedAt": "2024-11-05T15:40:29Z"
+          }
+        }
+      ]
+    }
+  }
+}

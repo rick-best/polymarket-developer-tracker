@@ -1,0 +1,23 @@
+Polymarket Blocker Agent Report
+
+Generated at: 2026-05-25 00:58:51 Asia/Shanghai
+
+Automatic actions completed:
+- Daily report dry-run refreshed: /Users/rickbest/Downloads/polymarket/reports/daily-2026-05-25.txt
+- Daily report JSON refreshed: /Users/rickbest/Downloads/polymarket/reports/daily-2026-05-25.json
+- Static evidence refreshed: latest=2026-05-25
+- Market Intel page refreshed: site/market-intel/index.html
+- Community Intel refreshed: site/community-intel/index.html
+
+Current blockers:
+- [monitor-only] Builder Program submitted but not officially confirmed -> Check official email/in-site status and record only explicit acceptance, rejection, application ID, or no-change evidence.
+- [needs-user-choice] Public Builder Profile Site needs a confirmed hosting target -> User chooses GitHub Pages, Cloudflare Pages, Netlify, Vercel, or existing Tencent server. Default recommendation remains no-server static hosting.
+- [needs-read-only-preflight] Server deployment blocked until existing services are inspected -> Run read-only preflight on the target server: hostname, pwd, processes, listening ports, running services, timers, and crontab.
+- [needs-env] Local SMTP live-send is not ready -> Set missing server environment keys without exposing values: ALERT_EMAIL_TO, EMAIL_FROM, EMAIL_SMTP_HOST, EMAIL_SMTP_PORT, EMAIL_SMTP_USER, EMAIL_SMTP_PASS.
+- [hard-stop] Trading, wallet, API-key, public-post, account-change, live deploy, and live email actions require explicit action-time confirmation -> Keep these actions out of autonomous runs. Emit them as manual confirmations only.
+
+Next safe action:
+- Refresh official read-only snapshot and keep submission status evidence current.
+
+Hard stops:
+- No trading, order placement, deposits, withdrawals, wallet signing, wallet connection, approvals, new API key creation, public posts, account changes, live deployment, or live email without explicit action-time confirmation.

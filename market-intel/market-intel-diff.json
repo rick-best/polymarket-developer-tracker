@@ -2,12 +2,12 @@
   "ok": true,
   "error": "",
   "summary": {
-    "todayCollectedAt": "2026-05-25 00:58:54",
+    "todayCollectedAt": "2026-05-25 01:33:36",
     "yesterdayCollectedAt": "2026-05-24 20:23:39",
     "changes": {
       "builders": 9,
-      "rewards": 15,
-      "github": 1,
+      "rewards": 14,
+      "github": 0,
       "sectionStatus": 0
     }
   },
@@ -103,11 +103,11 @@
     "rewards": {
       "added": [
         {
-          "key": "Max Spread Min Shares Reward Comp. Earnings Percent Price Changes Games Total: O/U 2.5",
+          "key": "Changes Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs",
           "today": {
             "maxSpread": "±2¢",
             "minShares": "250",
-            "reward": "300"
+            "reward": "749"
           },
           "yesterday": null
         },
@@ -121,29 +121,11 @@
           "yesterday": null
         },
         {
-          "key": "Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs",
-          "today": {
-            "maxSpread": "±2¢",
-            "minShares": "250",
-            "reward": "749"
-          },
-          "yesterday": null
-        },
-        {
           "key": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 2 Winner",
           "today": {
             "maxSpread": "±2¢",
             "minShares": "250",
             "reward": "112"
-          },
-          "yesterday": null
-        },
-        {
-          "key": "Competition Rocket League: Karmine Corp vs Vitality - Game 2 Winner",
-          "today": {
-            "maxSpread": "±2¢",
-            "minShares": "250",
-            "reward": "13"
           },
           "yesterday": null
         },
@@ -157,20 +139,29 @@
           "yesterday": null
         },
         {
-          "key": "Competition Games Total: O/U 5.5",
+          "key": "Competition Rocket League: Karmine Corp vs Vitality (BO7) - RLCS Major Paris Playoffs",
           "today": {
             "maxSpread": "±2¢",
             "minShares": "250",
-            "reward": "17"
+            "reward": "127"
           },
           "yesterday": null
         },
         {
-          "key": "Competition Rocket League: Karmine Corp vs Vitality - Game 1 Winner",
+          "key": "Competition Rocket League: Karmine Corp vs Vitality - Game 6 Winner",
           "today": {
             "maxSpread": "±2¢",
             "minShares": "250",
             "reward": "13"
+          },
+          "yesterday": null
+        },
+        {
+          "key": "Competition Counter-Strike: Wildcard vs FOKUS - Map 2 Winner",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "112"
           },
           "yesterday": null
         }
@@ -192,15 +183,6 @@
             "maxSpread": "±2¢",
             "minShares": "500",
             "reward": "21"
-          }
-        },
-        {
-          "key": "Competition Games Total: O/U 2.5",
-          "today": null,
-          "yesterday": {
-            "maxSpread": "±2¢",
-            "minShares": "500",
-            "reward": "41"
           }
         },
         {
@@ -240,28 +222,26 @@
           }
         }
       ],
-      "changed": []
+      "changed": [
+        {
+          "key": "Competition Games Total: O/U 2.5",
+          "today": {
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "300"
+          },
+          "yesterday": {
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "41"
+          }
+        }
+      ]
     },
     "github": {
       "added": [],
       "removed": [],
-      "changed": [
-        {
-          "key": "Polymarket/agents",
-          "today": {
-            "stars": 3558,
-            "forks": 795,
-            "openIssues": 44,
-            "pushedAt": "2024-11-05T15:40:29Z"
-          },
-          "yesterday": {
-            "stars": 3557,
-            "forks": 795,
-            "openIssues": 44,
-            "pushedAt": "2024-11-05T15:40:29Z"
-          }
-        }
-      ]
+      "changed": []
     }
   }
 }

@@ -4,11 +4,15 @@ import { collectPolymarketSnapshot } from "../src/polymarketCollector.mjs";
 import { runCommunityIntel } from "../src/communityIntel.mjs";
 import { buildSiteEvidence } from "./buildSiteEvidence.mjs";
 import { buildMarketIntelPage } from "./buildMarketIntelPage.mjs";
+import { buildProductPortfolioPage } from "./buildProductPortfolioPage.mjs";
+import { buildOfficialEngagementPage } from "./buildOfficialEngagementPage.mjs";
 
 const snapshot = await collectPolymarketSnapshot();
 const communityIntel = await runCommunityIntel();
 buildSiteEvidence();
 buildMarketIntelPage();
+const portfolio = buildProductPortfolioPage();
+const engagement = await buildOfficialEngagementPage();
 const checks = {
   emailStatus: emailRuntime(),
   buildersOk: snapshot.builders.ok,
@@ -21,6 +25,8 @@ const checks = {
   siteIndexExists: fs.existsSync("site/index.html"),
   siteEvidenceExists: fs.existsSync("site/evidence/index.html"),
   siteMarketIntelExists: fs.existsSync("site/market-intel/index.html"),
+  sitePortfolioExists: fs.existsSync("site/portfolio/index.html") && portfolio.products > 15,
+  siteEngagementExists: fs.existsSync("site/engagement/index.html") && engagement.candidates >= 0,
   siteCommunityIntelExists: fs.existsSync("site/community-intel/index.html") && communityIntel.ok,
   communityIntelReportExists:
     fs.existsSync("reports/community-intel-latest.txt") && fs.existsSync("reports/community-intel-latest.json"),
@@ -41,6 +47,8 @@ if (
   !checks.siteIndexExists ||
   !checks.siteEvidenceExists ||
   !checks.siteMarketIntelExists ||
+  !checks.sitePortfolioExists ||
+  !checks.siteEngagementExists ||
   !checks.siteCommunityIntelExists ||
   !checks.communityIntelReportExists ||
   !checks.siteEvidenceLatestExists

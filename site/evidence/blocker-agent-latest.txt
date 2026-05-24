@@ -1,6 +1,6 @@
 Polymarket Blocker Agent Report
 
-Generated at: 2026-05-25 00:58:51 Asia/Shanghai
+Generated at: 2026-05-25 01:33:34 Asia/Shanghai
 
 Automatic actions completed:
 - Daily report dry-run refreshed: /Users/rickbest/Downloads/polymarket/reports/daily-2026-05-25.txt
@@ -8,6 +8,8 @@ Automatic actions completed:
 - Static evidence refreshed: latest=2026-05-25
 - Market Intel page refreshed: site/market-intel/index.html
 - Community Intel refreshed: site/community-intel/index.html
+- Product Portfolio refreshed: site/portfolio/index.html
+- Official Engagement queue refreshed: site/engagement/index.html
 
 Current blockers:
 - [monitor-only] Builder Program submitted but not officially confirmed -> Check official email/in-site status and record only explicit acceptance, rejection, application ID, or no-change evidence.

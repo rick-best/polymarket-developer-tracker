@@ -14,6 +14,8 @@ npm run blocker:agent
 - Regenerates the dry-run daily report under `reports/`.
 - Refreshes `site/evidence/` from local reports.
 - Regenerates the read-only Market Intelligence page.
+- Regenerates the multi-product Builder ecosystem portfolio.
+- Regenerates the draft-only official engagement queue for GitHub candidates, Builder actions, and X post drafts.
 - Writes a blocker register to:
   - `reports/blocker-agent-YYYY-MM-DD.txt`
   - `reports/blocker-agent-YYYY-MM-DD.json`
@@ -27,6 +29,7 @@ npm run blocker:agent
 - No deposits, withdrawals, transfers, wallet signatures, wallet connections, or approvals.
 - No new API key creation.
 - No public posts or account changes.
+- No GitHub comments, issues, PRs, public repository creation, or push without user confirmation.
 - No live email send.
 - No server deployment or service changes.
 - No deletion or directory cleanup.

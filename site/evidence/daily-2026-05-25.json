@@ -1,6 +1,6 @@
 {
   "mode": "blocker-agent-dry-run",
-  "generatedAt": "2026-05-25 00:58:54",
+  "generatedAt": "2026-05-25 01:33:36",
   "runtime": {
     "provider": "smtp-email",
     "providerChain": "smtp-email",
@@ -20,7 +20,7 @@
     ]
   },
   "snapshot": {
-    "collectedAt": "2026-05-25 00:58:54",
+    "collectedAt": "2026-05-25 01:33:36",
     "officialLinks": [
       {
         "name": "Polymarket",
@@ -153,10 +153,10 @@
         "hasDailyRewards": true,
         "sampleMarkets": [
           {
-            "market": "Max Spread Min Shares Reward Comp. Earnings Percent Price Changes Games Total: O/U 2.5",
+            "market": "Changes Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs",
             "maxSpread": "±2¢",
             "minShares": "250",
-            "reward": "300"
+            "reward": "749"
           },
           {
             "market": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 1 Winner",
@@ -165,22 +165,16 @@
             "reward": "112"
           },
           {
-            "market": "Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs",
-            "maxSpread": "±2¢",
-            "minShares": "250",
-            "reward": "749"
-          },
-          {
             "market": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 2 Winner",
             "maxSpread": "±2¢",
             "minShares": "250",
             "reward": "112"
           },
           {
-            "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 2 Winner",
+            "market": "Competition Games Total: O/U 2.5",
             "maxSpread": "±2¢",
             "minShares": "250",
-            "reward": "13"
+            "reward": "300"
           },
           {
             "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 5 Winner",
@@ -189,16 +183,22 @@
             "reward": "13"
           },
           {
-            "market": "Competition Games Total: O/U 5.5",
+            "market": "Competition Rocket League: Karmine Corp vs Vitality (BO7) - RLCS Major Paris Playoffs",
             "maxSpread": "±2¢",
             "minShares": "250",
-            "reward": "17"
+            "reward": "127"
           },
           {
-            "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 1 Winner",
+            "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 6 Winner",
             "maxSpread": "±2¢",
             "minShares": "250",
             "reward": "13"
+          },
+          {
+            "market": "Competition Counter-Strike: Wildcard vs FOKUS - Map 2 Winner",
+            "maxSpread": "±2¢",
+            "minShares": "250",
+            "reward": "112"
           }
         ]
       },
@@ -210,7 +210,7 @@
         "ok": true,
         "status": 200,
         "description": "Trade autonomously on Polymarket using AI Agents",
-        "stars": 3558,
+        "stars": 3557,
         "forks": 795,
         "openIssues": 44,
         "pushedAt": "2024-11-05T15:40:29Z",

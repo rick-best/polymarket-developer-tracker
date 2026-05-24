@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25 00:58:51",
+  "generatedAt": "2026-05-25 01:33:34",
   "mode": "safe-local-blocker-agent",
   "completed": {
     "reportText": "/Users/rickbest/Downloads/polymarket/reports/daily-2026-05-25.txt",
@@ -30,6 +30,16 @@
       "reportText": "/Users/rickbest/Downloads/polymarket/reports/community-intel-2026-05-25.txt",
       "siteHtml": "site/community-intel/index.html",
       "siteJson": "site/community-intel/community-intel-latest.json"
+    },
+    "productPortfolio": {
+      "output": "site/portfolio/index.html",
+      "json": "site/portfolio/product-portfolio.json",
+      "products": 18
+    },
+    "officialEngagement": {
+      "output": "site/engagement/index.html",
+      "json": "site/engagement/official-engagement-latest.json",
+      "candidates": 15
     }
   },
   "runtime": {

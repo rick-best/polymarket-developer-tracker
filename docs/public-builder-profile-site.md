@@ -15,6 +15,8 @@ This project intentionally keeps the site static:
 - `site/evidence/` (generated from `reports/daily-*.{txt,json}`)
 - `site/market-intel/` (read-only dashboard)
 - `site/community-intel/` (read-only developer/community intelligence)
+- `site/portfolio/` (multi-product ecosystem portfolio)
+- `site/engagement/` (draft-only official engagement queue)
 
 The evidence folder must include:
 - `site/evidence/index.html`

@@ -32,7 +32,9 @@ The public repository should prove that this is an active Polymarket ecosystem d
 - `docs/market-intel-dashboard.md`
 - `docs/public-builder-profile-site.md`
 - `docs/blocker-agent.md`
+- `docs/official-engagement-workflow.md`
 - `data/official-links.json`
+- `data/product-portfolio.json`
 - `data/community-intel-observations.json`
 - `automation/*.example`
 - `wallets/README.md`

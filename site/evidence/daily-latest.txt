@@ -2,7 +2,7 @@ Polymarket Developer Participation 日报：开发者参与进度 / 2026-05-25
 
 Polymarket Developer Participation 自动日报。
 
-发送时间：2026-05-25 00:58:54 Asia/Shanghai
+发送时间：2026-05-25 01:33:36 Asia/Shanghai
 贡献钱包地址：0x31d2621184901ea3fb3b11299a40f495f8e08ed1
 Builder Code：已配置
 Builder API Key：已配置
@@ -51,15 +51,15 @@ Builder API Key：已配置
 五、Rewards 快照
 - Rewards 页面：正常 HTTP 200
 - Rewards 样例市场：
-  - Max Spread Min Shares Reward Comp. Earnings Percent Price Changes Games Total: O/U 2.5 | spread ±2¢ | min 250 | reward 300
+  - Changes Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs | spread ±2¢ | min 250 | reward 749
   - Competition Counter-Strike: EYEBALLERS vs Alliance - Map 1 Winner | spread ±2¢ | min 250 | reward 112
-  - Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs | spread ±2¢ | min 250 | reward 749
   - Competition Counter-Strike: EYEBALLERS vs Alliance - Map 2 Winner | spread ±2¢ | min 250 | reward 112
-  - Competition Rocket League: Karmine Corp vs Vitality - Game 2 Winner | spread ±2¢ | min 250 | reward 13
+  - Competition Games Total: O/U 2.5 | spread ±2¢ | min 250 | reward 300
   - Competition Rocket League: Karmine Corp vs Vitality - Game 5 Winner | spread ±2¢ | min 250 | reward 13
+  - Competition Rocket League: Karmine Corp vs Vitality (BO7) - RLCS Major Paris Playoffs | spread ±2¢ | min 250 | reward 127
 
 六、GitHub 官方仓库
-- Polymarket/agents: stars=3558, forks=795, openIssues=44, pushedAt=2024-11-05T15:40:29Z
+- Polymarket/agents: stars=3557, forks=795, openIssues=44, pushedAt=2024-11-05T15:40:29Z
 - Polymarket/py-clob-client: stars=1219, forks=384, openIssues=165, pushedAt=2026-05-11T17:15:19Z
 
 七、当前人工待办

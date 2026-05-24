@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
+import { buildOfficialEngagementPage } from "../scripts/buildOfficialEngagementPage.mjs";
 import { buildMarketIntelPage } from "../scripts/buildMarketIntelPage.mjs";
+import { buildProductPortfolioPage } from "../scripts/buildProductPortfolioPage.mjs";
 import { buildSiteEvidence } from "../scripts/buildSiteEvidence.mjs";
 import { runCommunityIntel } from "./communityIntel.mjs";
 import { collectPolymarketSnapshot } from "./polymarketCollector.mjs";
@@ -140,7 +142,16 @@ function nextSafeAction(assessment) {
   return "Continue P2 read-only deliverables: Market Intelligence diff/export, Builder Tracker hardening, and evidence freshness.";
 }
 
-function renderTextReport({ generatedAt, dailyReport, siteEvidence, marketIntel, communityIntel, assessment }) {
+function renderTextReport({
+  generatedAt,
+  dailyReport,
+  siteEvidence,
+  marketIntel,
+  communityIntel,
+  productPortfolio,
+  officialEngagement,
+  assessment
+}) {
   const lines = [
     "Polymarket Blocker Agent Report",
     "",
@@ -152,6 +163,8 @@ function renderTextReport({ generatedAt, dailyReport, siteEvidence, marketIntel,
     `- Static evidence refreshed: latest=${siteEvidence.latest ?? "none"}`,
     `- Market Intel page refreshed: ${marketIntel.output}`,
     `- Community Intel refreshed: ${communityIntel.siteHtml}`,
+    `- Product Portfolio refreshed: ${productPortfolio.output}`,
+    `- Official Engagement queue refreshed: ${officialEngagement.output}`,
     "",
     "Current blockers:",
     ...assessment.blockers.map((item) => `- [${item.status}] ${item.title} -> ${item.nextAction}`),
@@ -184,7 +197,9 @@ export async function runBlockerAgent() {
 
   const siteEvidence = buildSiteEvidence();
   const marketIntel = buildMarketIntelPage();
+  const productPortfolio = buildProductPortfolioPage();
   const communityIntel = await runCommunityIntel();
+  const officialEngagement = await buildOfficialEngagementPage();
   const runtime = emailRuntime();
   const assessment = assessBlockers({ state, runtime, projectStatus, queue });
 
@@ -196,7 +211,9 @@ export async function runBlockerAgent() {
       reportJson,
       siteEvidence,
       marketIntel,
-      communityIntel
+      communityIntel,
+      productPortfolio,
+      officialEngagement
     },
     runtime,
     assessment,
@@ -215,6 +232,8 @@ export async function runBlockerAgent() {
     siteEvidence,
     marketIntel,
     communityIntel,
+    productPortfolio,
+    officialEngagement,
     assessment
   });
 

@@ -15,6 +15,8 @@
     "community:intel": "node src/communityIntel.mjs",
     "site:evidence": "node scripts/buildSiteEvidence.mjs",
     "site:market-intel": "node scripts/buildMarketIntelPage.mjs",
+    "site:portfolio": "node scripts/buildProductPortfolioPage.mjs",
+    "site:engagement": "node scripts/buildOfficialEngagementPage.mjs",
     "wallet:generate": "node scripts/generateWallet.mjs",
     "verify": "node scripts/verify.mjs"
   },

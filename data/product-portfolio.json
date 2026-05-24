@@ -1,0 +1,213 @@
+{
+  "updatedAt": "2026-05-25",
+  "mission": "Build a visible Polymarket ecosystem portfolio that can be reviewed by the Builders Program, GitHub maintainers, and developer community without fake volume, private-key collection, or unsafe wallet flows.",
+  "officialEntryPaths": [
+    {
+      "name": "Builders Program application",
+      "url": "https://builders.polymarket.com/",
+      "action": "Submit project, website, contact fields, and Builder API key only after user confirmation."
+    },
+    {
+      "name": "Builder profile and code",
+      "url": "https://polymarket.com/settings?tab=builder",
+      "action": "Create profile, copy Builder Code, and record it securely only after verified login and user confirmation."
+    },
+    {
+      "name": "Official GitHub organization",
+      "url": "https://github.com/Polymarket",
+      "action": "Track open issues, documentation gaps, examples, SDK compatibility, and submit useful issues or PRs after confirmation."
+    },
+    {
+      "name": "Official docs index",
+      "url": "https://docs.polymarket.com/llms.txt",
+      "action": "Scan docs daily and turn changes into public examples, compatibility checks, and issue candidates."
+    },
+    {
+      "name": "Official X / Builders X",
+      "url": "https://x.com/PolymarketBuild",
+      "action": "Prepare public build updates and mention official accounts only after user confirms the post text."
+    }
+  ],
+  "products": [
+    {
+      "id": "builder-profile-site",
+      "name": "Builder Profile Site",
+      "category": "Public proof",
+      "status": "local-ready",
+      "publicUrl": "site/index.html",
+      "purpose": "Static public profile for Builder Program review.",
+      "officialExposure": "Builders Program Website URL",
+      "nextAction": "Publish site/ to a stable public URL."
+    },
+    {
+      "id": "builder-evidence-trail",
+      "name": "Builder Evidence Trail",
+      "category": "Public proof",
+      "status": "local-ready",
+      "publicUrl": "site/evidence/index.html",
+      "purpose": "Daily timestamped proof of official checks and project progress.",
+      "officialExposure": "GitHub README, Builder submission, X build updates",
+      "nextAction": "Keep latest daily evidence published."
+    },
+    {
+      "id": "market-intel-dashboard",
+      "name": "Market Intelligence Dashboard",
+      "category": "Market intelligence",
+      "status": "local-ready",
+      "publicUrl": "site/market-intel/index.html",
+      "purpose": "Read-only market, rewards, leaderboard, and official GitHub snapshot dashboard.",
+      "officialExposure": "Builder project demo and GitHub showcase",
+      "nextAction": "Add staleness flags and notable-change detail pages."
+    },
+    {
+      "id": "community-intel-dashboard",
+      "name": "Community Intel Dashboard",
+      "category": "Developer intelligence",
+      "status": "local-ready",
+      "publicUrl": "site/community-intel/index.html",
+      "purpose": "Turn official docs/GitHub and community signals into prioritized developer workstreams.",
+      "officialExposure": "X build updates and Builder Program update notes",
+      "nextAction": "Feed daily findings into GitHub issue/PR candidates."
+    },
+    {
+      "id": "official-docs-diff",
+      "name": "Official Docs Diff Watcher",
+      "category": "Developer tooling",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Detect docs index changes from llms.txt and produce changelogs for builders.",
+      "officialExposure": "GitHub docs issues and X update threads",
+      "nextAction": "Persist docs index snapshots and render diffs."
+    },
+    {
+      "id": "api-examples-kit",
+      "name": "API Examples Kit",
+      "category": "Developer tooling",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Read-only Gamma, Data, and CLOB public endpoint examples with dry-run defaults.",
+      "officialExposure": "Public GitHub repo and possible docs PRs",
+      "nextAction": "Create examples for Gamma search, Data builder analytics, and CLOB orderbook reads."
+    },
+    {
+      "id": "clob-compat-checker",
+      "name": "CLOB Compatibility Checker",
+      "category": "Developer tooling",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Check public CLOB endpoint shape and SDK expectations without authenticated trading.",
+      "officialExposure": "Polymarket SDK issue reports and PRs",
+      "nextAction": "Generate schema checks for orderbook, prices, spreads, and midpoint endpoints."
+    },
+    {
+      "id": "builder-code-attribution-lab",
+      "name": "Builder Code Attribution Lab",
+      "category": "Builder infrastructure",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Dry-run examples showing where Builder Code is attached without placing live orders.",
+      "officialExposure": "Builder docs examples and submission proof",
+      "nextAction": "Add redacted env template and offline order payload preview."
+    },
+    {
+      "id": "rewards-radar",
+      "name": "Rewards Radar",
+      "category": "Rewards intelligence",
+      "status": "local-basic",
+      "publicUrl": "site/market-intel/index.html",
+      "purpose": "Track public Rewards page snapshots and highlight changes without trading.",
+      "officialExposure": "X build updates and Builder dashboard evidence",
+      "nextAction": "Add limited-time and reward-size detection."
+    },
+    {
+      "id": "builder-leaderboard-tracker",
+      "name": "Builder Leaderboard Tracker",
+      "category": "Builder intelligence",
+      "status": "local-basic",
+      "publicUrl": "site/evidence/daily-latest.json",
+      "purpose": "Monitor public leaderboard entries and rank changes.",
+      "officialExposure": "Builder Program progress reports",
+      "nextAction": "Normalize rank, name, volume, and day-over-day movement."
+    },
+    {
+      "id": "sdk-issue-radar",
+      "name": "SDK Issue Radar",
+      "category": "GitHub contribution",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Track official Polymarket SDK issues and identify useful reproducible reports or fixes.",
+      "officialExposure": "GitHub issues and PRs",
+      "nextAction": "Scan clob-client-v2, py-clob-client, builder-relayer-client, and related repos daily."
+    },
+    {
+      "id": "developer-support-desk",
+      "name": "Developer Support Desk",
+      "category": "Community",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Draft safe answers and examples for recurring developer questions.",
+      "officialExposure": "Discord, Telegram, GitHub issues, and X replies after confirmation",
+      "nextAction": "Create response templates sourced from official docs."
+    },
+    {
+      "id": "risk-compliance-monitor",
+      "name": "Risk & Compliance Monitor",
+      "category": "Safety",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Track scam-link, auth, wallet, and fake-volume risks with careful wording.",
+      "officialExposure": "Public safety page and responsible issue reports",
+      "nextAction": "Create risk taxonomy and official-link verification checklist."
+    },
+    {
+      "id": "official-link-verifier",
+      "name": "Official Link Verifier",
+      "category": "Safety",
+      "status": "local-basic",
+      "publicUrl": "data/official-links.json",
+      "purpose": "Verify official Polymarket links before forms, credentials, wallet actions, or docs references.",
+      "officialExposure": "GitHub README trust section and Builder submission",
+      "nextAction": "Refresh official link evidence and add source route notes."
+    },
+    {
+      "id": "x-build-log",
+      "name": "X Build Log Publisher",
+      "category": "Public exposure",
+      "status": "draft-only",
+      "publicUrl": "",
+      "purpose": "Prepare concise X posts tagging Polymarket/PolymarketBuild with shipped updates.",
+      "officialExposure": "X public build-in-public updates",
+      "nextAction": "Generate draft posts; publish only after user approval."
+    },
+    {
+      "id": "github-contribution-queue",
+      "name": "GitHub Contribution Queue",
+      "category": "GitHub contribution",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Convert daily findings into issue comments, bug reports, docs fixes, and PR candidates.",
+      "officialExposure": "Official Polymarket GitHub activity",
+      "nextAction": "Create daily issue/PR candidate report from official repo scan."
+    },
+    {
+      "id": "builder-grant-brief",
+      "name": "Builder Grant Brief",
+      "category": "Builder submission",
+      "status": "local-ready",
+      "publicUrl": "docs/builder-submission-package.md",
+      "purpose": "Maintain a truthful grant/application brief with product claims, blockers, and reward address.",
+      "officialExposure": "Builder Program application and follow-up emails",
+      "nextAction": "Fill public URL, GitHub URL, and user-confirmed contact fields."
+    },
+    {
+      "id": "quest-task-scanner",
+      "name": "Quest & Campaign Task Scanner",
+      "category": "Rewards intelligence",
+      "status": "planned",
+      "publicUrl": "",
+      "purpose": "Scan official task pages before executing any Quest, Campaign, Mission, Points, or Rewards action.",
+      "officialExposure": "Future Polymarket ecosystem task participation",
+      "nextAction": "Create task-state schema with claim/check/submit/verify tracking."
+    }
+  ]
+}

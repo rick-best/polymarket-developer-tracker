@@ -1,0 +1,604 @@
+{
+  "generatedAt": "2026-05-25 01:27:43",
+  "channels": [
+    {
+      "name": "Official Docs",
+      "url": "https://docs.polymarket.com/",
+      "access": "public",
+      "safeUse": "fetch-and-parse"
+    },
+    {
+      "name": "Official GitHub",
+      "url": "https://github.com/Polymarket",
+      "access": "public",
+      "safeUse": "metadata-only"
+    },
+    {
+      "name": "Official X",
+      "url": "https://x.com/Polymarket",
+      "access": "connector-or-browser",
+      "safeUse": "read-only; verify links through official domains before use"
+    },
+    {
+      "name": "Builders X",
+      "url": "https://x.com/PolymarketBuild",
+      "access": "connector-or-browser",
+      "safeUse": "read-only; treat as official only while linked from official source record"
+    },
+    {
+      "name": "Official Discord",
+      "url": "https://discord.gg/polymarket",
+      "access": "login-required",
+      "safeUse": "read-only unless user confirms posting or account action"
+    },
+    {
+      "name": "Official Telegram",
+      "url": "https://t.me/polymarket",
+      "access": "app-or-browser-required",
+      "safeUse": "read-only; do not join bots or click third-party crypto links without verification"
+    }
+  ],
+  "officialDocs": {
+    "source": "https://docs.polymarket.com/llms.txt",
+    "ok": true,
+    "status": 200,
+    "relevant": [
+      {
+        "title": "Negative Risk Markets: Capital-efficient trading for multi-outcome events",
+        "url": "https://docs.polymarket.com/advanced/neg-risk.md"
+      },
+      {
+        "title": "Authentication: How to authenticate requests to the CLOB API",
+        "url": "https://docs.polymarket.com/api-reference/authentication.md"
+      },
+      {
+        "title": "Get aggregated builder leaderboard",
+        "url": "https://docs.polymarket.com/api-reference/builders/get-aggregated-builder-leaderboard.md"
+      },
+      {
+        "title": "Get daily builder volume time-series",
+        "url": "https://docs.polymarket.com/api-reference/builders/get-daily-builder-volume-time-series.md"
+      },
+      {
+        "title": "Clients & SDKs: Official open-source libraries for interacting with Polymarket",
+        "url": "https://docs.polymarket.com/api-reference/clients-sdks.md"
+      },
+      {
+        "title": "Get comments by comment id",
+        "url": "https://docs.polymarket.com/api-reference/comments/get-comments-by-comment-id.md"
+      },
+      {
+        "title": "Get comments by user address",
+        "url": "https://docs.polymarket.com/api-reference/comments/get-comments-by-user-address.md"
+      },
+      {
+        "title": "List comments",
+        "url": "https://docs.polymarket.com/api-reference/comments/list-comments.md"
+      },
+      {
+        "title": "Get closed positions for a user",
+        "url": "https://docs.polymarket.com/api-reference/core/get-closed-positions-for-a-user.md"
+      },
+      {
+        "title": "Get current positions for a user",
+        "url": "https://docs.polymarket.com/api-reference/core/get-current-positions-for-a-user.md"
+      },
+      {
+        "title": "Get positions for a market",
+        "url": "https://docs.polymarket.com/api-reference/core/get-positions-for-a-market.md"
+      },
+      {
+        "title": "Get top holders for markets",
+        "url": "https://docs.polymarket.com/api-reference/core/get-top-holders-for-markets.md"
+      },
+      {
+        "title": "Get total value of a user's positions",
+        "url": "https://docs.polymarket.com/api-reference/core/get-total-value-of-a-users-positions.md"
+      },
+      {
+        "title": "Get trader leaderboard rankings",
+        "url": "https://docs.polymarket.com/api-reference/core/get-trader-leaderboard-rankings.md"
+      },
+      {
+        "title": "Get trades for a user or markets",
+        "url": "https://docs.polymarket.com/api-reference/core/get-trades-for-a-user-or-markets.md"
+      },
+      {
+        "title": "Get user activity",
+        "url": "https://docs.polymarket.com/api-reference/core/get-user-activity.md"
+      },
+      {
+        "title": "Get midpoint price: Retrieves the midpoint price for a specific token ID. The midpoint is calculated as the average of the best bid and best ask prices.",
+        "url": "https://docs.polymarket.com/api-reference/data/get-midpoint-price.md"
+      },
+      {
+        "title": "Get server time: Returns the current Unix timestamp of the server. This can be used to synchronize client time with server time.",
+        "url": "https://docs.polymarket.com/api-reference/data/get-server-time.md"
+      },
+      {
+        "title": "Get event by id",
+        "url": "https://docs.polymarket.com/api-reference/events/get-event-by-id.md"
+      },
+      {
+        "title": "Get event by slug",
+        "url": "https://docs.polymarket.com/api-reference/events/get-event-by-slug.md"
+      },
+      {
+        "title": "Get event tags",
+        "url": "https://docs.polymarket.com/api-reference/events/get-event-tags.md"
+      },
+      {
+        "title": "List events",
+        "url": "https://docs.polymarket.com/api-reference/events/list-events.md"
+      },
+      {
+        "title": "List events (keyset pagination): Returns events using cursor-based (keyset) pagination for stable, efficient paging through large result sets. Use `next_cursor` from each response as `after_cursor` in the next request. The `offset` parameter is explicitly rejected; use `after_cursor` instead.",
+        "url": "https://docs.polymarket.com/api-reference/events/list-events-keyset-pagination.md"
+      },
+      {
+        "title": "Geographic Restrictions: Check geographic restrictions before placing orders on the Polymarket API",
+        "url": "https://docs.polymarket.com/api-reference/geoblock.md"
+      }
+    ],
+    "error": ""
+  },
+  "github": {
+    "source": "https://api.github.com/orgs/Polymarket/repos?per_page=100&sort=pushed",
+    "ok": true,
+    "status": 200,
+    "recentRepos": [
+      {
+        "name": "resolution-subgraph",
+        "description": "",
+        "htmlUrl": "https://github.com/Polymarket/resolution-subgraph",
+        "pushedAt": "2026-05-22T19:38:22Z",
+        "stars": 4,
+        "forks": 2,
+        "openIssues": 0,
+        "archived": false
+      },
+      {
+        "name": "builder-relayer-client",
+        "description": "Typescript Client for the Polymarket Relayer API",
+        "htmlUrl": "https://github.com/Polymarket/builder-relayer-client",
+        "pushedAt": "2026-05-20T10:55:08Z",
+        "stars": 50,
+        "forks": 26,
+        "openIssues": 18,
+        "archived": false
+      },
+      {
+        "name": "rs-clob-client-v2",
+        "description": "",
+        "htmlUrl": "https://github.com/Polymarket/rs-clob-client-v2",
+        "pushedAt": "2026-05-13T08:39:52Z",
+        "stars": 81,
+        "forks": 52,
+        "openIssues": 47,
+        "archived": false
+      },
+      {
+        "name": "clob-client",
+        "description": "Typescript client for the Polymarket CLOB",
+        "htmlUrl": "https://github.com/Polymarket/clob-client",
+        "pushedAt": "2026-05-11T17:15:57Z",
+        "stars": 516,
+        "forks": 169,
+        "openIssues": 73,
+        "archived": true
+      },
+      {
+        "name": "py-clob-client",
+        "description": "Python client for the Polymarket CLOB",
+        "htmlUrl": "https://github.com/Polymarket/py-clob-client",
+        "pushedAt": "2026-05-11T17:15:19Z",
+        "stars": 1219,
+        "forks": 384,
+        "openIssues": 165,
+        "archived": true
+      },
+      {
+        "name": "rs-clob-client",
+        "description": "Polymarket Rust CLOB Client",
+        "htmlUrl": "https://github.com/Polymarket/rs-clob-client",
+        "pushedAt": "2026-05-11T17:14:31Z",
+        "stars": 700,
+        "forks": 213,
+        "openIssues": 63,
+        "archived": true
+      },
+      {
+        "name": "ctf-exchange",
+        "description": "Polymarket CTF Exchange",
+        "htmlUrl": "https://github.com/Polymarket/ctf-exchange",
+        "pushedAt": "2026-05-11T17:13:36Z",
+        "stars": 352,
+        "forks": 162,
+        "openIssues": 23,
+        "archived": true
+      },
+      {
+        "name": "py-clob-client-v2",
+        "description": "",
+        "htmlUrl": "https://github.com/Polymarket/py-clob-client-v2",
+        "pushedAt": "2026-05-09T12:57:11Z",
+        "stars": 129,
+        "forks": 40,
+        "openIssues": 46,
+        "archived": false
+      },
+      {
+        "name": "clob-client-v2",
+        "description": "Typescript client for the Polymarket CLOB",
+        "htmlUrl": "https://github.com/Polymarket/clob-client-v2",
+        "pushedAt": "2026-05-08T19:13:04Z",
+        "stars": 64,
+        "forks": 25,
+        "openIssues": 24,
+        "archived": false
+      },
+      {
+        "name": "py-builder-relayer-client",
+        "description": "Python Client for the Polymarket Relayer API",
+        "htmlUrl": "https://github.com/Polymarket/py-builder-relayer-client",
+        "pushedAt": "2026-05-04T01:05:08Z",
+        "stars": 40,
+        "forks": 16,
+        "openIssues": 16,
+        "archived": false
+      },
+      {
+        "name": "polymarket-cli",
+        "description": "",
+        "htmlUrl": "https://github.com/Polymarket/polymarket-cli",
+        "pushedAt": "2026-04-28T22:45:12Z",
+        "stars": 2718,
+        "forks": 328,
+        "openIssues": 47,
+        "archived": false
+      },
+      {
+        "name": "clob-order-utils",
+        "description": "Typescript utility to generate and sign orders for Polymarket's CLOB",
+        "htmlUrl": "https://github.com/Polymarket/clob-order-utils",
+        "pushedAt": "2026-04-27T16:23:55Z",
+        "stars": 25,
+        "forks": 17,
+        "openIssues": 3,
+        "archived": false
+      }
+    ],
+    "error": ""
+  },
+  "observations": [
+    {
+      "source": "X connector: @Polymarket",
+      "url": "https://x.com/Polymarket/status/2058556114694771139",
+      "title": "Official X continues to publish new market launches in real time",
+      "summary": "Recent official posts include new market announcements and event links on polymarket.com. This supports adding an official-market-launch feed into the read-only Market Intel dashboard.",
+      "confidence": "official-account-readonly",
+      "tags": [
+        "official x",
+        "new polymarket",
+        "market",
+        "real-time"
+      ]
+    },
+    {
+      "source": "X connector: @Polymarket",
+      "url": "https://x.com/Polymarket/status/2058583854139535582",
+      "title": "High-engagement official market/news posts can guide dashboard priorities",
+      "summary": "Official Polymarket posts with strong engagement can be used as public attention signals, but only for read-only ranking and never for automated trading.",
+      "confidence": "official-account-readonly",
+      "tags": [
+        "official x",
+        "market",
+        "volume",
+        "dashboard"
+      ]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/DextersSolab/status/2058244286198501631",
+      "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
+      "summary": "A recent third-party developer thread frames Polymarket as moving beyond basic docs toward deeper infrastructure. Treat as a community signal to prioritize API examples, docs diffing, and compatibility checks.",
+      "confidence": "third-party-signal",
+      "tags": [
+        "developer",
+        "api",
+        "clob",
+        "docs",
+        "sdk"
+      ]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/AlterEgo_eth/status/2056348741247136018",
+      "title": "Community demand exists for a complete endpoint cheat sheet",
+      "summary": "A third-party post claims to collect current Gamma, Data, CLOB, leaderboard API, and WebSocket endpoints. Do not reuse unverified endpoint lists directly; instead build an official-docs-derived API Examples Kit.",
+      "confidence": "third-party-signal",
+      "tags": [
+        "api",
+        "endpoint",
+        "gamma",
+        "data api",
+        "clob",
+        "websocket"
+      ]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/primo_data/status/1997352012959084996",
+      "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+      "summary": "A Polymarket-associated account previously highlighted the Builders dashboard, docs, and Builder Data API. Use this to shape the public profile site and compare our tracker against ecosystem categories.",
+      "confidence": "source-needs-current-recheck",
+      "tags": [
+        "builder",
+        "leaderboard",
+        "builder api",
+        "profile"
+      ]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/primo_data/status/2010395704133611661",
+      "title": "DevRel and docs feedback are recurring community themes",
+      "summary": "Community discussion points toward developer support, market-maker support, integration partners, API users, and docs improvements. Prepare concise support notes and issue templates, but do not post without confirmation.",
+      "confidence": "source-needs-current-recheck",
+      "tags": [
+        "community",
+        "support",
+        "docs",
+        "feedback",
+        "discord"
+      ]
+    },
+    {
+      "source": "web/reddit search",
+      "url": "https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/",
+      "title": "Developer-targeted scam/link confusion risk exists",
+      "summary": "Search results show community concern around potentially confusing developer links. Keep official-link verification prominent before any credential, key, or wallet action.",
+      "confidence": "third-party-risk-signal",
+      "tags": [
+        "scam",
+        "security",
+        "wallet",
+        "auth",
+        "key"
+      ]
+    },
+    {
+      "source": "web/reddit search",
+      "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/",
+      "title": "Builders are shipping resolution and market intelligence APIs",
+      "summary": "Recent community posts show builder interest in resolution detection and market monitoring. Local work should focus on transparent, read-only intelligence rather than trading execution.",
+      "confidence": "third-party-signal",
+      "tags": [
+        "api",
+        "market",
+        "community",
+        "dashboard"
+      ]
+    }
+  ],
+  "workstreams": [
+    {
+      "id": "api-examples-kit",
+      "title": "API Examples Kit",
+      "score": 13,
+      "matchedTerms": [
+        "api",
+        "clob",
+        "sdk",
+        "endpoint",
+        "pagination",
+        "websocket",
+        "data api",
+        "gamma"
+      ],
+      "recommendedAction": "Build read-only examples and compatibility checks around Gamma/Data/CLOB docs, with dry-run defaults and no embedded keys.",
+      "evidence": [
+        {
+          "source": "X search",
+          "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
+          "confidence": "third-party-signal",
+          "url": "https://x.com/DextersSolab/status/2058244286198501631"
+        },
+        {
+          "source": "X search",
+          "title": "Community demand exists for a complete endpoint cheat sheet",
+          "confidence": "third-party-signal",
+          "url": "https://x.com/AlterEgo_eth/status/2056348741247136018"
+        },
+        {
+          "source": "X search",
+          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/1997352012959084996"
+        },
+        {
+          "source": "X search",
+          "title": "DevRel and docs feedback are recurring community themes",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/2010395704133611661"
+        },
+        {
+          "source": "web/reddit search",
+          "title": "Builders are shipping resolution and market intelligence APIs",
+          "confidence": "third-party-signal",
+          "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/"
+        }
+      ]
+    },
+    {
+      "id": "community-support",
+      "title": "Community Support Desk",
+      "score": 10,
+      "matchedTerms": [
+        "discord",
+        "community",
+        "feedback",
+        "docs",
+        "support"
+      ],
+      "recommendedAction": "Prepare issue triage notes and safe response drafts for developer questions; posting requires user confirmation.",
+      "evidence": [
+        {
+          "source": "X connector: @Polymarket",
+          "title": "Official X continues to publish new market launches in real time",
+          "confidence": "official-account-readonly",
+          "url": "https://x.com/Polymarket/status/2058556114694771139"
+        },
+        {
+          "source": "X search",
+          "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
+          "confidence": "third-party-signal",
+          "url": "https://x.com/DextersSolab/status/2058244286198501631"
+        },
+        {
+          "source": "X search",
+          "title": "Community demand exists for a complete endpoint cheat sheet",
+          "confidence": "third-party-signal",
+          "url": "https://x.com/AlterEgo_eth/status/2056348741247136018"
+        },
+        {
+          "source": "X search",
+          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/1997352012959084996"
+        },
+        {
+          "source": "X search",
+          "title": "DevRel and docs feedback are recurring community themes",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/2010395704133611661"
+        }
+      ]
+    },
+    {
+      "id": "market-intel-dashboard",
+      "title": "Market Intelligence Dashboard",
+      "score": 9,
+      "matchedTerms": [
+        "market",
+        "volume",
+        "new polymarket",
+        "real-time"
+      ],
+      "recommendedAction": "Convert official market/reward signals into read-only dashboard deltas, notable changes, and staleness flags.",
+      "evidence": [
+        {
+          "source": "X connector: @Polymarket",
+          "title": "Official X continues to publish new market launches in real time",
+          "confidence": "official-account-readonly",
+          "url": "https://x.com/Polymarket/status/2058556114694771139"
+        },
+        {
+          "source": "X connector: @Polymarket",
+          "title": "High-engagement official market/news posts can guide dashboard priorities",
+          "confidence": "official-account-readonly",
+          "url": "https://x.com/Polymarket/status/2058583854139535582"
+        },
+        {
+          "source": "X search",
+          "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
+          "confidence": "third-party-signal",
+          "url": "https://x.com/DextersSolab/status/2058244286198501631"
+        },
+        {
+          "source": "X search",
+          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/1997352012959084996"
+        },
+        {
+          "source": "X search",
+          "title": "DevRel and docs feedback are recurring community themes",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/2010395704133611661"
+        }
+      ]
+    },
+    {
+      "id": "builder-profile-site",
+      "title": "Public Builder Profile Site",
+      "score": 7,
+      "matchedTerms": [
+        "builder",
+        "leaderboard",
+        "builder api",
+        "profile"
+      ],
+      "recommendedAction": "Keep the public Builder profile site deploy-ready and add evidence that explains the project, safety boundaries, and API value.",
+      "evidence": [
+        {
+          "source": "X search",
+          "title": "Community demand exists for a complete endpoint cheat sheet",
+          "confidence": "third-party-signal",
+          "url": "https://x.com/AlterEgo_eth/status/2056348741247136018"
+        },
+        {
+          "source": "X search",
+          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/1997352012959084996"
+        },
+        {
+          "source": "web/reddit search",
+          "title": "Builders are shipping resolution and market intelligence APIs",
+          "confidence": "third-party-signal",
+          "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/"
+        }
+      ]
+    },
+    {
+      "id": "risk-compliance-monitor",
+      "title": "Risk & Compliance Monitor",
+      "score": 7,
+      "matchedTerms": [
+        "scam",
+        "key",
+        "wallet",
+        "auth",
+        "security"
+      ],
+      "recommendedAction": "Track developer safety risks and unverified links with careful wording, without accusations or account actions.",
+      "evidence": [
+        {
+          "source": "X search",
+          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+          "confidence": "source-needs-current-recheck",
+          "url": "https://x.com/primo_data/status/1997352012959084996"
+        },
+        {
+          "source": "web/reddit search",
+          "title": "Developer-targeted scam/link confusion risk exists",
+          "confidence": "third-party-risk-signal",
+          "url": "https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/"
+        }
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "channel": "X continuous search",
+      "blocker": "TWITTER_TOKEN is not available locally; current run uses connector results and saved summaries only.",
+      "next": "Use X connector/browser or configure a token before automated X search."
+    },
+    {
+      "channel": "Discord developer community",
+      "blocker": "Login and posting are account actions.",
+      "next": "Open official Discord read-only; ask user before posting, joining restricted channels, or submitting forms."
+    },
+    {
+      "channel": "Telegram community",
+      "blocker": "Telegram bot/channel interactions can include unsafe crypto links.",
+      "next": "Read official @polymarket only; verify any outbound link through official X/website before use."
+    },
+    {
+      "channel": "Deployment",
+      "blocker": "Live server changes require fresh process/port/service preflight.",
+      "next": "Keep local site/report work moving until deployment target is explicitly confirmed."
+    }
+  ]
+}

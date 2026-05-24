@@ -1,0 +1,6 @@
+# Deprecated: keep only as a migration reference.
+# Prefer automation/polymarket-daily-email.service.example and
+# automation/polymarket-daily-email.timer.example for production.
+
+TZ=Asia/Shanghai
+0 21 * * * cd /opt/polymarket-developer-tracker && /usr/bin/env bash scripts/run-daily-email-report.sh >> logs/daily-report.log 2>> logs/daily-report.err

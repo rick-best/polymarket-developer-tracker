@@ -1,0 +1,14 @@
+[Unit]
+Description=Polymarket safe blocker agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/polymarket-developer-tracker
+EnvironmentFile=-/etc/polymarket-developer-tracker.env
+ExecStart=/usr/bin/npm run blocker:agent
+StandardOutput=append:/var/log/polymarket-blocker-agent.log
+StandardError=append:/var/log/polymarket-blocker-agent.err

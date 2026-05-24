@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-05-25 00:58:54",
+  "collectedAt": "2026-05-25 00:58:54",
+  "sections": {
+    "builders": {
+      "ok": true,
+      "status": 200
+    },
+    "docs": {
+      "ok": true,
+      "status": 200
+    },
+    "rewards": {
+      "ok": true,
+      "status": 200
+    },
+    "github": {
+      "ok": true
+    }
+  },
+  "builders": {
+    "topProjects": [
+      {
+        "name": "Betmoar.fun",
+        "oneMonthVolume": "$181.76M"
+      },
+      {
+        "name": "PolyCop",
+        "oneMonthVolume": "$33.30M"
+      },
+      {
+        "name": "Polymtrade",
+        "oneMonthVolume": "$5.69M"
+      },
+      {
+        "name": "Polygun",
+        "oneMonthVolume": "$7.35M"
+      },
+      {
+        "name": "PolyTraderPro",
+        "oneMonthVolume": "$15.27M"
+      },
+      {
+        "name": "Stand.trade",
+        "oneMonthVolume": "$12.67M"
+      },
+      {
+        "name": "Kreo",
+        "oneMonthVolume": "$12.80M"
+      },
+      {
+        "name": "Polymer",
+        "oneMonthVolume": "$657.4"
+      },
+      {
+        "name": "Jupiter",
+        "oneMonthVolume": "$10.73M"
+      }
+    ]
+  },
+  "rewards": {
+    "sampleMarkets": [
+      {
+        "market": "Max Spread Min Shares Reward Comp. Earnings Percent Price Changes Games Total: O/U 2.5",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "300"
+      },
+      {
+        "market": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 1 Winner",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "112"
+      },
+      {
+        "market": "Counter-Strike: EYEBALLERS vs Alliance (BO3) - Conquest of Prague Finals Playoffs",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "749"
+      },
+      {
+        "market": "Competition Counter-Strike: EYEBALLERS vs Alliance - Map 2 Winner",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "112"
+      },
+      {
+        "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 2 Winner",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "13"
+      },
+      {
+        "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 5 Winner",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "13"
+      },
+      {
+        "market": "Competition Games Total: O/U 5.5",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "17"
+      },
+      {
+        "market": "Competition Rocket League: Karmine Corp vs Vitality - Game 1 Winner",
+        "maxSpread": "±2¢",
+        "minShares": "250",
+        "reward": "13"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "Polymarket/agents",
+      "stars": 3558,
+      "forks": 795,
+      "openIssues": 44,
+      "pushedAt": "2024-11-05T15:40:29Z"
+    },
+    {
+      "name": "Polymarket/py-clob-client",
+      "stars": 1219,
+      "forks": 384,
+      "openIssues": 165,
+      "pushedAt": "2026-05-11T17:15:19Z"
+    }
+  ]
+}

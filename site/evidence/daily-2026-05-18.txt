@@ -1,0 +1,76 @@
+Polymarket Developer Participation 日报：开发者参与进度 / 2026-05-18
+
+Polymarket Developer Participation 自动日报。
+
+发送时间：2026-05-18 09:50:11 Asia/Shanghai
+贡献钱包地址：0x31d2621184901ea3fb3b11299a40f495f8e08ed1
+Builder Code：未配置，需要登录 Polymarket Settings 生成
+Builder API Key：未配置，申请/获批后填写
+执行热钱包：0xd508455b0bD9d7f5b9Cf784D1EDb32F8Caf849E4（MetaMask: imported）
+
+一、今天执行/自动检查
+- 已按官方来源检查 Polymarket Builders、Docs、Rewards、GitHub 状态。
+- 日报任务默认只做信息收集和邮件发送，不自动下单、不刷量、不执行授权交易。
+- 官方链接进入表单或钱包授权前仍需二次核对。
+
+二、官方入口状态
+- Polymarket: verified https://polymarket.com/
+- Polymarket Builders: verified https://builders.polymarket.com/
+- Polymarket Docs: verified https://docs.polymarket.com/
+- Polymarket GitHub: verified https://github.com/Polymarket
+- Polymarket Agents: verified https://github.com/Polymarket/agents
+- Polymarket X: verified https://x.com/Polymarket
+- Polymarket Builders X: verified https://x.com/PolymarketBuild
+- Polymarket Discord: verified https://discord.gg/polymarket
+- Polymarket Telegram: verified https://t.me/polymarket
+- Polymarket Blog / News: check-before-use https://polymarket.com/blog
+- Polymarket Rewards: verified https://polymarket.com/rewards
+
+三、Builders Program 快照
+- Builders 页面：正常 HTTP 200
+- 申请表字段：Your Project / Product Name / Project Description / Website URL / Email / X Handle / Telegram Handle / Builder API key
+- 当前解析到的 leaderboard 头部项目：
+  1. Betmoar.fun $127.18M
+  2. PolyCop $24.75M
+  3. Polygun $5.85M
+  4. PolyTraderPro $13.29M
+  5. Stand.trade $9.08M
+  6. Kreo $9.25M
+  7. Polymer $342.9
+  8. Jupiter $7.80M
+
+四、开发文档重点
+- Docs 页面：正常 HTTP 200
+- Builder profile
+- Builder code attribution
+- Gasless relayer
+- Volume tracking
+- Leaderboard
+
+五、Rewards 快照
+- Rewards 页面：正常 HTTP 200
+- Rewards 样例市场：
+  - Comp. Earnings Percent Price Changes Counter-Strike: ex-RUBY vs ASTRAL - Map 2 Winner | spread ±2¢ | min 500 | reward 3
+  - Competition Games Total: O/U 2.5 | spread ±2¢ | min 500 | reward 8
+  - Competition Counter-Strike: ex-RUBY vs ASTRAL - Map 1 Winner | spread ±2¢ | min 500 | reward 3
+  - Competition Games Total: O/U 2.5 | spread ±2¢ | min 500 | reward 8
+  - Competition Counter-Strike: Esport Academy Copenhagen vs GenOne - Map 2 Winner | spread ±2¢ | min 500 | reward 3
+  - Competition Counter-Strike: Esport Academy Copenhagen vs GenOne - Map 1 Winner | spread ±2¢ | min 500 | reward 3
+
+六、GitHub 官方仓库
+- Polymarket/agents: stars=3507, forks=784, openIssues=44, pushedAt=2024-11-05T15:40:29Z
+- Polymarket/py-clob-client: stars=1208, forks=381, openIssues=165, pushedAt=2026-05-11T17:15:19Z
+
+七、当前人工待办
+- 登录 Polymarket，进入 Settings -> Builder 创建 builder profile/code。
+- 提交 Builders Program 表单：项目名、描述、网站、Email、X、Telegram、Builder API key。
+- MetaMask 已导入：polymarket开发者。
+- 确认 SMTP 授权码已配置到 `/etc/polymarket-developer-tracker.env` 或服务器环境变量。
+- 部署服务器前先检查已有进程、端口、cron/systemd，避免影响旧项目。
+
+八、明天计划
+- 完成 Builder 申请材料和项目公开 README。
+- 加 Gamma/Rewards 更细的市场筛选逻辑。
+- 准备 Discord #devs / X 的第一条开发进展文本。
+
+邮件投递说明：SMTP accepted 只代表服务商接受投递，不等于收件箱实际收到。

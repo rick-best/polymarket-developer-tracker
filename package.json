@@ -1,0 +1,27 @@
+{
+  "name": "polymarket-developer-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Polymarket builder participation tracker, daily report, and wallet utilities.",
+  "scripts": {
+    "email:status": "node src/emailStatus.mjs",
+    "email:verify": "node src/emailVerify.mjs",
+    "email:dry": "node src/dailyReport.mjs --dry-run",
+    "email:send": "node src/dailyReport.mjs --send-live --confirm-live-send",
+    "report:dry": "node src/dailyReport.mjs --dry-run",
+    "report:live": "node src/dailyReport.mjs --send-live --confirm-live-send",
+    "blocker:agent": "node src/blockerAgent.mjs",
+    "community:intel": "node src/communityIntel.mjs",
+    "site:evidence": "node scripts/buildSiteEvidence.mjs",
+    "site:market-intel": "node scripts/buildMarketIntelPage.mjs",
+    "wallet:generate": "node scripts/generateWallet.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.8.0",
+    "@noble/secp256k1": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "nodemailer": "^8.0.7"
+  }
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Polymarket safe blocker agent
+
+[Timer]
+OnCalendar=*-*-* 09,15,21:10:00
+Persistent=true
+Unit=polymarket-blocker-agent.service
+
+[Install]
+WantedBy=timers.target

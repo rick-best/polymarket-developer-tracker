@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-05-25",
+  "method": "Saved summaries from read-only X connector/search results and web search. Third-party observations are demand signals only; do not trust linked crypto URLs until verified through official Polymarket sources.",
+  "observations": [
+    {
+      "source": "X connector: @Polymarket",
+      "url": "https://x.com/Polymarket/status/2058556114694771139",
+      "title": "Official X continues to publish new market launches in real time",
+      "summary": "Recent official posts include new market announcements and event links on polymarket.com. This supports adding an official-market-launch feed into the read-only Market Intel dashboard.",
+      "confidence": "official-account-readonly",
+      "tags": ["official x", "new polymarket", "market", "real-time"]
+    },
+    {
+      "source": "X connector: @Polymarket",
+      "url": "https://x.com/Polymarket/status/2058583854139535582",
+      "title": "High-engagement official market/news posts can guide dashboard priorities",
+      "summary": "Official Polymarket posts with strong engagement can be used as public attention signals, but only for read-only ranking and never for automated trading.",
+      "confidence": "official-account-readonly",
+      "tags": ["official x", "market", "volume", "dashboard"]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/DextersSolab/status/2058244286198501631",
+      "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
+      "summary": "A recent third-party developer thread frames Polymarket as moving beyond basic docs toward deeper infrastructure. Treat as a community signal to prioritize API examples, docs diffing, and compatibility checks.",
+      "confidence": "third-party-signal",
+      "tags": ["developer", "api", "clob", "docs", "sdk"]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/AlterEgo_eth/status/2056348741247136018",
+      "title": "Community demand exists for a complete endpoint cheat sheet",
+      "summary": "A third-party post claims to collect current Gamma, Data, CLOB, leaderboard API, and WebSocket endpoints. Do not reuse unverified endpoint lists directly; instead build an official-docs-derived API Examples Kit.",
+      "confidence": "third-party-signal",
+      "tags": ["api", "endpoint", "gamma", "data api", "clob", "websocket"]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/primo_data/status/1997352012959084996",
+      "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
+      "summary": "A Polymarket-associated account previously highlighted the Builders dashboard, docs, and Builder Data API. Use this to shape the public profile site and compare our tracker against ecosystem categories.",
+      "confidence": "source-needs-current-recheck",
+      "tags": ["builder", "leaderboard", "builder api", "profile"]
+    },
+    {
+      "source": "X search",
+      "url": "https://x.com/primo_data/status/2010395704133611661",
+      "title": "DevRel and docs feedback are recurring community themes",
+      "summary": "Community discussion points toward developer support, market-maker support, integration partners, API users, and docs improvements. Prepare concise support notes and issue templates, but do not post without confirmation.",
+      "confidence": "source-needs-current-recheck",
+      "tags": ["community", "support", "docs", "feedback", "discord"]
+    },
+    {
+      "source": "web/reddit search",
+      "url": "https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/",
+      "title": "Developer-targeted scam/link confusion risk exists",
+      "summary": "Search results show community concern around potentially confusing developer links. Keep official-link verification prominent before any credential, key, or wallet action.",
+      "confidence": "third-party-risk-signal",
+      "tags": ["scam", "security", "wallet", "auth", "key"]
+    },
+    {
+      "source": "web/reddit search",
+      "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/",
+      "title": "Builders are shipping resolution and market intelligence APIs",
+      "summary": "Recent community posts show builder interest in resolution detection and market monitoring. Local work should focus on transparent, read-only intelligence rather than trading execution.",
+      "confidence": "third-party-signal",
+      "tags": ["api", "market", "community", "dashboard"]
+    }
+  ]
+}

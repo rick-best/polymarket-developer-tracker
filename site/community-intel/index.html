@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Community Intel — Polymarket Developer Tracker</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .page { max-width: 1040px; }
+      .muted { color: rgba(236,245,255,0.72); }
+      .toolbar { display:flex; gap:12px; flex-wrap:wrap; margin: 18px 0 28px; }
+      .toolbar a { display:inline-block; padding:10px 12px; border-radius: 12px; border: 1px solid rgba(124,183,255,0.25); background: rgba(9,15,27,0.6); color: #eef5ff; text-decoration:none; }
+      .table { width: 100%; border-collapse: collapse; margin: 18px 0 28px; }
+      .table th, .table td { border-bottom: 1px solid rgba(124,183,255,0.15); padding: 10px 8px; vertical-align: top; }
+      .table th { text-align: left; font-size: 13px; color: rgba(236,245,255,0.85); }
+      .table td { font-size: 14px; color: #eef5ff; }
+      li { margin: 0 0 12px; }
+      code { font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel">
+        <h1>Community Intel</h1>
+        <p class="muted">
+          Polymarket 开发者/社区情报面板。来源只读：官方 Docs、GitHub、已保存的 X 观察摘要，以及明确标记的 Discord/TG 阻塞项。
+          本页不执行发帖、进群、交易、签名、授权或资金操作。
+        </p>
+        <div class="toolbar">
+          <a href="../index.html">返回主页</a>
+          <a href="../market-intel/index.html">Market Intel</a>
+          <a href="./community-intel-latest.json">community-intel-latest.json</a>
+        </div>
+        <p class="muted">生成时间：<strong>2026-05-25 01:27:43</strong></p>
+      </section>
+
+      <section class="panel">
+        <h2>Priority Workstreams</h2>
+        <table class="table">
+          <thead><tr><th>Workstream</th><th>Score</th><th>Signals</th><th>Next development action</th></tr></thead>
+          <tbody><tr>
+        <td>API Examples Kit</td>
+        <td>13</td>
+        <td>api, clob, sdk, endpoint, pagination, websocket, data api, gamma</td>
+        <td>Build read-only examples and compatibility checks around Gamma/Data/CLOB docs, with dry-run defaults and no embedded keys.</td>
+      </tr><tr>
+        <td>Community Support Desk</td>
+        <td>10</td>
+        <td>discord, community, feedback, docs, support</td>
+        <td>Prepare issue triage notes and safe response drafts for developer questions; posting requires user confirmation.</td>
+      </tr><tr>
+        <td>Market Intelligence Dashboard</td>
+        <td>9</td>
+        <td>market, volume, new polymarket, real-time</td>
+        <td>Convert official market/reward signals into read-only dashboard deltas, notable changes, and staleness flags.</td>
+      </tr><tr>
+        <td>Public Builder Profile Site</td>
+        <td>7</td>
+        <td>builder, leaderboard, builder api, profile</td>
+        <td>Keep the public Builder profile site deploy-ready and add evidence that explains the project, safety boundaries, and API value.</td>
+      </tr><tr>
+        <td>Risk &amp; Compliance Monitor</td>
+        <td>7</td>
+        <td>scam, key, wallet, auth, security</td>
+        <td>Track developer safety risks and unverified links with careful wording, without accusations or account actions.</td>
+      </tr></tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>Community / X Observations</h2>
+        <ul><li>
+        <strong>Official X continues to publish new market launches in real time</strong>
+        <span class="muted">[X connector: @Polymarket / official-account-readonly]</span><br />
+        Recent official posts include new market announcements and event links on polymarket.com. This supports adding an official-market-launch feed into the read-only Market Intel dashboard.
+        <br /><a href="https://x.com/Polymarket/status/2058556114694771139" rel="noreferrer">https://x.com/Polymarket/status/2058556114694771139</a>
+      </li><li>
+        <strong>High-engagement official market/news posts can guide dashboard priorities</strong>
+        <span class="muted">[X connector: @Polymarket / official-account-readonly]</span><br />
+        Official Polymarket posts with strong engagement can be used as public attention signals, but only for read-only ranking and never for automated trading.
+        <br /><a href="https://x.com/Polymarket/status/2058583854139535582" rel="noreferrer">https://x.com/Polymarket/status/2058583854139535582</a>
+      </li><li>
+        <strong>Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction</strong>
+        <span class="muted">[X search / third-party-signal]</span><br />
+        A recent third-party developer thread frames Polymarket as moving beyond basic docs toward deeper infrastructure. Treat as a community signal to prioritize API examples, docs diffing, and compatibility checks.
+        <br /><a href="https://x.com/DextersSolab/status/2058244286198501631" rel="noreferrer">https://x.com/DextersSolab/status/2058244286198501631</a>
+      </li><li>
+        <strong>Community demand exists for a complete endpoint cheat sheet</strong>
+        <span class="muted">[X search / third-party-signal]</span><br />
+        A third-party post claims to collect current Gamma, Data, CLOB, leaderboard API, and WebSocket endpoints. Do not reuse unverified endpoint lists directly; instead build an official-docs-derived API Examples Kit.
+        <br /><a href="https://x.com/AlterEgo_eth/status/2056348741247136018" rel="noreferrer">https://x.com/AlterEgo_eth/status/2056348741247136018</a>
+      </li><li>
+        <strong>Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents</strong>
+        <span class="muted">[X search / source-needs-current-recheck]</span><br />
+        A Polymarket-associated account previously highlighted the Builders dashboard, docs, and Builder Data API. Use this to shape the public profile site and compare our tracker against ecosystem categories.
+        <br /><a href="https://x.com/primo_data/status/1997352012959084996" rel="noreferrer">https://x.com/primo_data/status/1997352012959084996</a>
+      </li><li>
+        <strong>DevRel and docs feedback are recurring community themes</strong>
+        <span class="muted">[X search / source-needs-current-recheck]</span><br />
+        Community discussion points toward developer support, market-maker support, integration partners, API users, and docs improvements. Prepare concise support notes and issue templates, but do not post without confirmation.
+        <br /><a href="https://x.com/primo_data/status/2010395704133611661" rel="noreferrer">https://x.com/primo_data/status/2010395704133611661</a>
+      </li><li>
+        <strong>Developer-targeted scam/link confusion risk exists</strong>
+        <span class="muted">[web/reddit search / third-party-risk-signal]</span><br />
+        Search results show community concern around potentially confusing developer links. Keep official-link verification prominent before any credential, key, or wallet action.
+        <br /><a href="https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/" rel="noreferrer">https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/</a>
+      </li><li>
+        <strong>Builders are shipping resolution and market intelligence APIs</strong>
+        <span class="muted">[web/reddit search / third-party-signal]</span><br />
+        Recent community posts show builder interest in resolution detection and market monitoring. Local work should focus on transparent, read-only intelligence rather than trading execution.
+        <br /><a href="https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/" rel="noreferrer">https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/</a>
+      </li></ul>
+      </section>
+
+      <section class="panel">
+        <h2>Official GitHub</h2>
+        <table class="table">
+          <thead><tr><th>Repo</th><th>Stars</th><th>Open issues</th><th>Pushed at</th></tr></thead>
+          <tbody><tr>
+        <td><a href="https://github.com/Polymarket/resolution-subgraph" rel="noreferrer">resolution-subgraph</a></td>
+        <td>4</td>
+        <td>0</td>
+        <td>2026-05-22T19:38:22Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/builder-relayer-client" rel="noreferrer">builder-relayer-client</a></td>
+        <td>50</td>
+        <td>18</td>
+        <td>2026-05-20T10:55:08Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/rs-clob-client-v2" rel="noreferrer">rs-clob-client-v2</a></td>
+        <td>81</td>
+        <td>47</td>
+        <td>2026-05-13T08:39:52Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/clob-client" rel="noreferrer">clob-client</a></td>
+        <td>516</td>
+        <td>73</td>
+        <td>2026-05-11T17:15:57Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/py-clob-client" rel="noreferrer">py-clob-client</a></td>
+        <td>1219</td>
+        <td>165</td>
+        <td>2026-05-11T17:15:19Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/rs-clob-client" rel="noreferrer">rs-clob-client</a></td>
+        <td>700</td>
+        <td>63</td>
+        <td>2026-05-11T17:14:31Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/ctf-exchange" rel="noreferrer">ctf-exchange</a></td>
+        <td>352</td>
+        <td>23</td>
+        <td>2026-05-11T17:13:36Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/py-clob-client-v2" rel="noreferrer">py-clob-client-v2</a></td>
+        <td>129</td>
+        <td>46</td>
+        <td>2026-05-09T12:57:11Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/clob-client-v2" rel="noreferrer">clob-client-v2</a></td>
+        <td>64</td>
+        <td>24</td>
+        <td>2026-05-08T19:13:04Z</td>
+      </tr><tr>
+        <td><a href="https://github.com/Polymarket/py-builder-relayer-client" rel="noreferrer">py-builder-relayer-client</a></td>
+        <td>40</td>
+        <td>16</td>
+        <td>2026-05-04T01:05:08Z</td>
+      </tr></tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>Access Blockers</h2>
+        <ul>
+          <li><strong>X continuous search</strong>: TWITTER_TOKEN is not available locally; current run uses connector results and saved summaries only. Use X connector/browser or configure a token before automated X search.</li><li><strong>Discord developer community</strong>: Login and posting are account actions. Open official Discord read-only; ask user before posting, joining restricted channels, or submitting forms.</li><li><strong>Telegram community</strong>: Telegram bot/channel interactions can include unsafe crypto links. Read official @polymarket only; verify any outbound link through official X/website before use.</li><li><strong>Deployment</strong>: Live server changes require fresh process/port/service preflight. Keep local site/report work moving until deployment target is explicitly confirmed.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

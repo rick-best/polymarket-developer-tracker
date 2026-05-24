@@ -1,0 +1,232 @@
+{
+  "mode": "dry-run",
+  "generatedAt": "2026-05-19 21:02:22",
+  "runtime": {
+    "provider": "smtp-email",
+    "providerChain": "smtp-email",
+    "liveReady": false,
+    "emailReady": false,
+    "maskedRecipient": "",
+    "missingLiveConfig": [
+      "ALERT_EMAIL_TO",
+      "EMAIL_FROM",
+      "EMAIL_SMTP_HOST",
+      "EMAIL_SMTP_PORT",
+      "EMAIL_SMTP_USER",
+      "EMAIL_SMTP_PASS"
+    ],
+    "loadedEnvFiles": []
+  },
+  "snapshot": {
+    "collectedAt": "2026-05-19 21:02:22",
+    "officialLinks": [
+      {
+        "name": "Polymarket",
+        "url": "https://polymarket.com/",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Builders",
+        "url": "https://builders.polymarket.com/",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Docs",
+        "url": "https://docs.polymarket.com/",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket GitHub",
+        "url": "https://github.com/Polymarket",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Agents",
+        "url": "https://github.com/Polymarket/agents",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket X",
+        "url": "https://x.com/Polymarket",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Builders X",
+        "url": "https://x.com/PolymarketBuild",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Discord",
+        "url": "https://discord.gg/polymarket",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Telegram",
+        "url": "https://t.me/polymarket",
+        "status": "verified"
+      },
+      {
+        "name": "Polymarket Blog / News",
+        "url": "https://polymarket.com/blog",
+        "status": "check-before-use"
+      },
+      {
+        "name": "Polymarket Rewards",
+        "url": "https://polymarket.com/rewards",
+        "status": "verified"
+      }
+    ],
+    "builders": {
+      "source": "https://builders.polymarket.com/",
+      "ok": true,
+      "status": 200,
+      "topProjects": [
+        {
+          "name": "Betmoar.fun",
+          "oneMonthVolume": "$136.12M"
+        },
+        {
+          "name": "PolyCop",
+          "oneMonthVolume": "$26.38M"
+        },
+        {
+          "name": "Polymtrade",
+          "oneMonthVolume": "$1.05M"
+        },
+        {
+          "name": "Polygun",
+          "oneMonthVolume": "$6.19M"
+        },
+        {
+          "name": "PolyTraderPro",
+          "oneMonthVolume": "$13.68M"
+        },
+        {
+          "name": "Stand.trade",
+          "oneMonthVolume": "$9.85M"
+        },
+        {
+          "name": "Kreo",
+          "oneMonthVolume": "$9.83M"
+        },
+        {
+          "name": "Jupiter",
+          "oneMonthVolume": "$8.21M"
+        }
+      ],
+      "applicationFields": [
+        "Your Project",
+        "Product Name",
+        "Project Description",
+        "Website URL",
+        "Email",
+        "X Handle",
+        "Telegram Handle",
+        "Builder API key"
+      ],
+      "error": ""
+    },
+    "builderDocs": {
+      "source": "https://docs.polymarket.com/builders/overview",
+      "ok": true,
+      "status": 200,
+      "highlights": [
+        "Builder profile",
+        "Builder code attribution",
+        "Gasless relayer",
+        "Volume tracking",
+        "Leaderboard"
+      ],
+      "error": ""
+    },
+    "rewards": {
+      "source": "https://polymarket.com/rewards",
+      "ok": true,
+      "status": 200,
+      "summary": {
+        "hasDailyRewards": true,
+        "sampleMarkets": [
+          {
+            "market": "Reward Comp. Earnings Percent Price Changes Cervia: Petr Nesterov vs Manoj Dhamne Manas",
+            "maxSpread": "±2¢",
+            "minShares": "1000",
+            "reward": "45"
+          },
+          {
+            "market": "Competition Bengaluru 3: Dominik Palan vs Alastair Gray",
+            "maxSpread": "±2¢",
+            "minShares": "1000",
+            "reward": "45"
+          },
+          {
+            "market": "Competition Bengaluru 3: Mitsuki Wei Kang Leong vs Yusuke Takahashi",
+            "maxSpread": "±2¢",
+            "minShares": "1000",
+            "reward": "45"
+          },
+          {
+            "market": "Competition Bengaluru 3: Leo Vithoontien vs Petr Bar Biryukov",
+            "maxSpread": "±2¢",
+            "minShares": "1000",
+            "reward": "45"
+          },
+          {
+            "market": "Competition Games Total: O/U 2.5",
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "8"
+          },
+          {
+            "market": "Competition Valorant: MIR vs WIP Esports - Map 2 Winner",
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "3"
+          },
+          {
+            "market": "Competition Valorant: MIR vs WIP Esports (BO3) - VCL EMEA: Group C",
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "20"
+          },
+          {
+            "market": "Competition Valorant: MIR vs WIP Esports - Map 1 Winner",
+            "maxSpread": "±2¢",
+            "minShares": "500",
+            "reward": "3"
+          }
+        ]
+      },
+      "error": ""
+    },
+    "github": [
+      {
+        "name": "Polymarket/agents",
+        "ok": true,
+        "status": 200,
+        "description": "Trade autonomously on Polymarket using AI Agents",
+        "stars": 3515,
+        "forks": 787,
+        "openIssues": 44,
+        "pushedAt": "2024-11-05T15:40:29Z",
+        "defaultBranch": "main",
+        "htmlUrl": "https://github.com/Polymarket/agents",
+        "error": ""
+      },
+      {
+        "name": "Polymarket/py-clob-client",
+        "ok": true,
+        "status": 200,
+        "description": "Python client for the Polymarket CLOB",
+        "stars": 1209,
+        "forks": 382,
+        "openIssues": 165,
+        "pushedAt": "2026-05-11T17:15:19Z",
+        "defaultBranch": "main",
+        "htmlUrl": "https://github.com/Polymarket/py-clob-client",
+        "error": ""
+      }
+    ]
+  },
+  "subject": "Polymarket Developer Participation 日报：开发者参与进度 / 2026-05-19",
+  "sendResult": null
+}

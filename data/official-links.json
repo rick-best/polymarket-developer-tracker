@@ -1,0 +1,72 @@
+{
+  "verifiedAt": "2026-05-18",
+  "method": "Checked official Polymarket pages, Polymarket Builders page, Polymarket documentation, GitHub organization pages, and X profile surfaces where available. Crypto links should continue to be rechecked before entering credentials or keys.",
+  "links": [
+    {
+      "name": "Polymarket",
+      "url": "https://polymarket.com/",
+      "status": "verified",
+      "evidence": "Polymarket homepage title and footer loaded from polymarket.com."
+    },
+    {
+      "name": "Polymarket Builders",
+      "url": "https://builders.polymarket.com/",
+      "status": "verified",
+      "evidence": "Builders page loaded and links to Docs, Code of Conduct, X, Discord, Instagram, TikTok, and LinkedIn."
+    },
+    {
+      "name": "Polymarket Docs",
+      "url": "https://docs.polymarket.com/",
+      "status": "verified",
+      "evidence": "Builder Program documentation currently redirects builder intro to /builders/overview."
+    },
+    {
+      "name": "Polymarket GitHub",
+      "url": "https://github.com/Polymarket",
+      "status": "verified",
+      "evidence": "Official repositories include Polymarket/agents and Polymarket/py-clob-client."
+    },
+    {
+      "name": "Polymarket Agents",
+      "url": "https://github.com/Polymarket/agents",
+      "status": "verified",
+      "evidence": "Official agents repository exposes Python 3.9 setup and Polymarket API architecture."
+    },
+    {
+      "name": "Polymarket X",
+      "url": "https://x.com/Polymarket",
+      "status": "verified",
+      "evidence": "Builders page official social link points to x.com/Polymarket."
+    },
+    {
+      "name": "Polymarket Builders X",
+      "url": "https://x.com/PolymarketBuild",
+      "status": "verified",
+      "evidence": "X profile text says it is the official source for Polymarket Builders updates and links to polymarket.com/r/builders."
+    },
+    {
+      "name": "Polymarket Discord",
+      "url": "https://discord.gg/polymarket",
+      "status": "verified",
+      "evidence": "Builders page official Discord link resolves to discord.com/invite/Polymarket."
+    },
+    {
+      "name": "Polymarket Telegram",
+      "url": "https://t.me/polymarket",
+      "status": "verified",
+      "evidence": "Telegram preview page loads @polymarket."
+    },
+    {
+      "name": "Polymarket Blog / News",
+      "url": "https://polymarket.com/blog",
+      "status": "check-before-use",
+      "evidence": "Polymarket footer currently exposes News at news.polymarket.com; keep both blog/news checked before use."
+    },
+    {
+      "name": "Polymarket Rewards",
+      "url": "https://polymarket.com/rewards",
+      "status": "verified",
+      "evidence": "Rewards page loaded with Daily Rewards table."
+    }
+  ]
+}

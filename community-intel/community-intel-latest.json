@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25 01:35:38",
+  "generatedAt": "2026-05-25 02:14:36",
   "channels": [
     {
       "name": "Official Docs",
@@ -223,7 +223,7 @@
         "htmlUrl": "https://github.com/Polymarket/py-clob-client-v2",
         "pushedAt": "2026-05-09T12:57:11Z",
         "stars": 129,
-        "forks": 40,
+        "forks": 41,
         "openIssues": 46,
         "archived": false
       },
@@ -272,309 +272,372 @@
   },
   "observations": [
     {
-      "source": "X connector: @Polymarket",
-      "url": "https://x.com/Polymarket/status/2058556114694771139",
-      "title": "Official X continues to publish new market launches in real time",
-      "summary": "Recent official posts include new market announcements and event links on polymarket.com. This supports adding an official-market-launch feed into the read-only Market Intel dashboard.",
-      "confidence": "official-account-readonly",
+      "source": "official docs changelog",
+      "url": "https://docs.polymarket.com/changelog",
+      "title": "Builder leaderboard and volume endpoints now expose builderCode",
+      "summary": "The May 18, 2026 changelog says `GET /v1/builders/leaderboard` and `GET /v1/builders/volume` include `builderCode`. Priority: add builderCode-aware parsing and examples to local builder/API evidence.",
+      "confidence": "official-docs-high",
       "tags": [
-        "official x",
-        "new polymarket",
-        "market",
-        "real-time"
-      ]
-    },
-    {
-      "source": "X connector: @Polymarket",
-      "url": "https://x.com/Polymarket/status/2058583854139535582",
-      "title": "High-engagement official market/news posts can guide dashboard priorities",
-      "summary": "Official Polymarket posts with strong engagement can be used as public attention signals, but only for read-only ranking and never for automated trading.",
-      "confidence": "official-account-readonly",
-      "tags": [
-        "official x",
-        "market",
-        "volume",
-        "dashboard"
-      ]
-    },
-    {
-      "source": "X search",
-      "url": "https://x.com/DextersSolab/status/2058244286198501631",
-      "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
-      "summary": "A recent third-party developer thread frames Polymarket as moving beyond basic docs toward deeper infrastructure. Treat as a community signal to prioritize API examples, docs diffing, and compatibility checks.",
-      "confidence": "third-party-signal",
-      "tags": [
-        "developer",
-        "api",
-        "clob",
-        "docs",
-        "sdk"
-      ]
-    },
-    {
-      "source": "X search",
-      "url": "https://x.com/AlterEgo_eth/status/2056348741247136018",
-      "title": "Community demand exists for a complete endpoint cheat sheet",
-      "summary": "A third-party post claims to collect current Gamma, Data, CLOB, leaderboard API, and WebSocket endpoints. Do not reuse unverified endpoint lists directly; instead build an official-docs-derived API Examples Kit.",
-      "confidence": "third-party-signal",
-      "tags": [
-        "api",
-        "endpoint",
-        "gamma",
-        "data api",
-        "clob",
-        "websocket"
-      ]
-    },
-    {
-      "source": "X search",
-      "url": "https://x.com/primo_data/status/1997352012959084996",
-      "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
-      "summary": "A Polymarket-associated account previously highlighted the Builders dashboard, docs, and Builder Data API. Use this to shape the public profile site and compare our tracker against ecosystem categories.",
-      "confidence": "source-needs-current-recheck",
-      "tags": [
+        "official docs",
         "builder",
+        "builderCode",
         "leaderboard",
-        "builder api",
-        "profile"
+        "volume",
+        "api"
       ]
     },
     {
-      "source": "X search",
-      "url": "https://x.com/primo_data/status/2010395704133611661",
-      "title": "DevRel and docs feedback are recurring community themes",
-      "summary": "Community discussion points toward developer support, market-maker support, integration partners, API users, and docs improvements. Prepare concise support notes and issue templates, but do not post without confirmation.",
-      "confidence": "source-needs-current-recheck",
+      "source": "official docs changelog",
+      "url": "https://docs.polymarket.com/changelog",
+      "title": "CLOB V2 is the live production target and V1 is no longer compatible",
+      "summary": "The Apr 28, 2026 changelog confirms production runs at `https://clob.polymarket.com`, V1-signed orders are unsupported, and pre-cutover open orders did not migrate. Priority: keep all local examples and compatibility checks V2-only.",
+      "confidence": "official-docs-high",
       "tags": [
-        "community",
-        "support",
-        "docs",
-        "feedback",
-        "discord"
-      ]
-    },
-    {
-      "source": "web/reddit search",
-      "url": "https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/",
-      "title": "Developer-targeted scam/link confusion risk exists",
-      "summary": "Search results show community concern around potentially confusing developer links. Keep official-link verification prominent before any credential, key, or wallet action.",
-      "confidence": "third-party-risk-signal",
-      "tags": [
-        "scam",
-        "security",
-        "wallet",
-        "auth",
-        "key"
-      ]
-    },
-    {
-      "source": "web/reddit search",
-      "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/",
-      "title": "Builders are shipping resolution and market intelligence APIs",
-      "summary": "Recent community posts show builder interest in resolution detection and market monitoring. Local work should focus on transparent, read-only intelligence rather than trading execution.",
-      "confidence": "third-party-signal",
-      "tags": [
+        "official docs",
+        "clob",
+        "v2",
+        "migration",
         "api",
-        "market",
+        "compatibility"
+      ]
+    },
+    {
+      "source": "official migration guide",
+      "url": "https://docs.polymarket.com/v2-migration",
+      "title": "Builder attribution moved to a single builderCode field and pUSD is the new collateral",
+      "summary": "The migration guide states V2 uses `@polymarket/clob-client-v2` and `py-clob-client-v2`, moves builder attribution into the order struct via `builderCode`, and replaces USDC.e with pUSD. Priority: build an official-docs-derived API Examples Kit focused on V2 auth, signing, and builder attribution.",
+      "confidence": "official-docs-high",
+      "tags": [
+        "official docs",
+        "builderCode",
+        "pUSD",
+        "sdk",
+        "clob v2",
+        "examples"
+      ]
+    },
+    {
+      "source": "official builder docs",
+      "url": "https://docs.polymarket.com/builders/overview",
+      "title": "Builder program still routes users toward profile creation, attribution, and gasless relayer usage",
+      "summary": "Official builder docs still tell builders to create a builder profile at `polymarket.com/settings?tab=builder`, attach `builderCode` on orders, and use the relayer client for gasless operations. Priority: keep local builder submission package and profile site aligned with this flow, without creating keys or profiles automatically.",
+      "confidence": "official-docs-high",
+      "tags": [
+        "official docs",
+        "builder profile",
+        "builderCode",
+        "relayer",
+        "gasless"
+      ]
+    },
+    {
+      "source": "official builder docs",
+      "url": "https://docs.polymarket.com/developers/builders/builder-tiers",
+      "title": "Verified builder tier still advertises leaderboard visibility, private Telegram, and weekly USDC rewards",
+      "summary": "The tiers page shows Verified builders can get leaderboard visibility, a private Telegram channel, and weekly USDC rewards subject to approval, while upgrades route through `builder@polymarket.com`. Priority: preserve a truthful rewards/community monitor and avoid any fake-volume or rewards-farming behavior.",
+      "confidence": "official-docs-high",
+      "tags": [
+        "official docs",
+        "builder tiers",
+        "telegram",
+        "rewards",
+        "leaderboard",
+        "compliance"
+      ]
+    },
+    {
+      "source": "official builders site",
+      "url": "https://builders.polymarket.com/",
+      "title": "Builders landing page still markets grants and captures website, email, X, and Telegram fields",
+      "summary": "The public builders page still advertises `$1M+` in grants and exposes the current application field shape, including Website URL, Email, X Handle, and Telegram Handle. Priority: keep the local submission package ready, but do not submit or interact with the form without user confirmation.",
+      "confidence": "official-site-high",
+      "tags": [
+        "official site",
+        "builders",
+        "grants",
+        "form",
+        "application",
+        "public url"
+      ]
+    },
+    {
+      "source": "official help center",
+      "url": "https://help.polymarket.com/en/articles/13364250-does-polymarket-have-a-token",
+      "title": "Official help center continues to deny any Polymarket token or airdrop",
+      "summary": "The Jan 11, 2026 help-center article says Polymarket does not have a token or announced airdrop and points users back to official web, X, and Discord channels. Priority: treat token, airdrop, quest, and rewards claims outside official sources as scam-risk until verified.",
+      "confidence": "official-help-high",
+      "tags": [
+        "official help",
+        "token",
+        "airdrop",
+        "scam",
+        "rewards",
+        "safety"
+      ]
+    },
+    {
+      "source": "official X profile verification",
+      "url": "https://x.com/Polymarket/affiliates",
+      "title": "Official @Polymarket profile still points to polymarket.com and Discord",
+      "summary": "The public @Polymarket profile page exposes the official website link and Discord path, which remains a valid source-record for later link verification. Priority: keep using official X profile metadata to confirm outbound community links before trusting them.",
+      "confidence": "official-x-profile-medium",
+      "tags": [
+        "official x",
+        "discord",
+        "link verification",
         "community",
-        "dashboard"
+        "safety"
+      ]
+    },
+    {
+      "source": "official X profile verification",
+      "url": "https://x.com/PolymarketBuild/affiliates",
+      "title": "Official @PolymarketBuild profile remains the public builders-program source on X",
+      "summary": "The public @PolymarketBuild profile describes itself as the official source for builder updates and points back to the builders path. Priority: use it as an official source record, but note that timeline-level extraction is limited without logged-in browser or connector access.",
+      "confidence": "official-x-profile-medium",
+      "tags": [
+        "official x",
+        "builders",
+        "official source",
+        "verification",
+        "blocker"
+      ]
+    },
+    {
+      "source": "public X status search",
+      "url": "https://x.com/Polymarket/status/2024514315823509826",
+      "title": "Recent official X developer messaging still emphasizes developer experience",
+      "summary": "Public search surfaced a Feb 19, 2026 official @Polymarket post about building the best developer experience and welcoming `@GetDomeAPI`. This is useful as a soft signal for DevRel emphasis, but it is not fresh night-window evidence and should be treated as lower-confidence than docs.",
+      "confidence": "official-x-search-low-freshness",
+      "tags": [
+        "official x",
+        "developer experience",
+        "devrel",
+        "low freshness"
+      ]
+    },
+    {
+      "source": "public X search limitation",
+      "url": "https://x.com/PolymarketBuild",
+      "title": "Night-window X timeline coverage is still blocked by missing Chrome/connector navigation",
+      "summary": "This run could verify official X profile identity and public indexed posts, but could not safely inspect the full logged-in timeline because direct Chrome navigation tools were not available in-session. Priority: keep the blocker explicit and continue using official docs/site changes as the highest-confidence overnight signal.",
+      "confidence": "run-blocker-high",
+      "tags": [
+        "blocker",
+        "chrome",
+        "x search",
+        "timeline",
+        "night run"
       ]
     }
   ],
   "workstreams": [
-    {
-      "id": "api-examples-kit",
-      "title": "API Examples Kit",
-      "score": 13,
-      "matchedTerms": [
-        "api",
-        "clob",
-        "sdk",
-        "endpoint",
-        "pagination",
-        "websocket",
-        "data api",
-        "gamma"
-      ],
-      "recommendedAction": "Build read-only examples and compatibility checks around Gamma/Data/CLOB docs, with dry-run defaults and no embedded keys.",
-      "evidence": [
-        {
-          "source": "X search",
-          "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
-          "confidence": "third-party-signal",
-          "url": "https://x.com/DextersSolab/status/2058244286198501631"
-        },
-        {
-          "source": "X search",
-          "title": "Community demand exists for a complete endpoint cheat sheet",
-          "confidence": "third-party-signal",
-          "url": "https://x.com/AlterEgo_eth/status/2056348741247136018"
-        },
-        {
-          "source": "X search",
-          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/1997352012959084996"
-        },
-        {
-          "source": "X search",
-          "title": "DevRel and docs feedback are recurring community themes",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/2010395704133611661"
-        },
-        {
-          "source": "web/reddit search",
-          "title": "Builders are shipping resolution and market intelligence APIs",
-          "confidence": "third-party-signal",
-          "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/"
-        }
-      ]
-    },
     {
       "id": "community-support",
       "title": "Community Support Desk",
       "score": 10,
       "matchedTerms": [
         "discord",
+        "telegram",
         "community",
-        "feedback",
         "docs",
         "support"
       ],
       "recommendedAction": "Prepare issue triage notes and safe response drafts for developer questions; posting requires user confirmation.",
       "evidence": [
         {
-          "source": "X connector: @Polymarket",
-          "title": "Official X continues to publish new market launches in real time",
-          "confidence": "official-account-readonly",
-          "url": "https://x.com/Polymarket/status/2058556114694771139"
+          "source": "official docs changelog",
+          "title": "Builder leaderboard and volume endpoints now expose builderCode",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
         },
         {
-          "source": "X search",
-          "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
-          "confidence": "third-party-signal",
-          "url": "https://x.com/DextersSolab/status/2058244286198501631"
+          "source": "official docs changelog",
+          "title": "CLOB V2 is the live production target and V1 is no longer compatible",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
         },
         {
-          "source": "X search",
-          "title": "Community demand exists for a complete endpoint cheat sheet",
-          "confidence": "third-party-signal",
-          "url": "https://x.com/AlterEgo_eth/status/2056348741247136018"
+          "source": "official migration guide",
+          "title": "Builder attribution moved to a single builderCode field and pUSD is the new collateral",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/v2-migration"
         },
         {
-          "source": "X search",
-          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/1997352012959084996"
+          "source": "official builder docs",
+          "title": "Builder program still routes users toward profile creation, attribution, and gasless relayer usage",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/builders/overview"
         },
         {
-          "source": "X search",
-          "title": "DevRel and docs feedback are recurring community themes",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/2010395704133611661"
+          "source": "official builder docs",
+          "title": "Verified builder tier still advertises leaderboard visibility, private Telegram, and weekly USDC rewards",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/developers/builders/builder-tiers"
         }
       ]
     },
     {
-      "id": "market-intel-dashboard",
-      "title": "Market Intelligence Dashboard",
+      "id": "api-examples-kit",
+      "title": "API Examples Kit",
       "score": 9,
       "matchedTerms": [
-        "market",
-        "volume",
-        "new polymarket",
-        "real-time"
+        "api",
+        "clob",
+        "sdk",
+        "endpoint",
+        "pagination"
       ],
-      "recommendedAction": "Convert official market/reward signals into read-only dashboard deltas, notable changes, and staleness flags.",
+      "recommendedAction": "Build read-only examples and compatibility checks around Gamma/Data/CLOB docs, with dry-run defaults and no embedded keys.",
       "evidence": [
         {
-          "source": "X connector: @Polymarket",
-          "title": "Official X continues to publish new market launches in real time",
-          "confidence": "official-account-readonly",
-          "url": "https://x.com/Polymarket/status/2058556114694771139"
+          "source": "official docs changelog",
+          "title": "Builder leaderboard and volume endpoints now expose builderCode",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
         },
         {
-          "source": "X connector: @Polymarket",
-          "title": "High-engagement official market/news posts can guide dashboard priorities",
-          "confidence": "official-account-readonly",
-          "url": "https://x.com/Polymarket/status/2058583854139535582"
+          "source": "official docs changelog",
+          "title": "CLOB V2 is the live production target and V1 is no longer compatible",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
         },
         {
-          "source": "X search",
-          "title": "Developers are discussing Polymarket docs, CLOB V2, pUSD, perps, and L2 direction",
-          "confidence": "third-party-signal",
-          "url": "https://x.com/DextersSolab/status/2058244286198501631"
+          "source": "official migration guide",
+          "title": "Builder attribution moved to a single builderCode field and pUSD is the new collateral",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/v2-migration"
         },
         {
-          "source": "X search",
-          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/1997352012959084996"
-        },
-        {
-          "source": "X search",
-          "title": "DevRel and docs feedback are recurring community themes",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/2010395704133611661"
-        }
-      ]
-    },
-    {
-      "id": "builder-profile-site",
-      "title": "Public Builder Profile Site",
-      "score": 7,
-      "matchedTerms": [
-        "builder",
-        "leaderboard",
-        "builder api",
-        "profile"
-      ],
-      "recommendedAction": "Keep the public Builder profile site deploy-ready and add evidence that explains the project, safety boundaries, and API value.",
-      "evidence": [
-        {
-          "source": "X search",
-          "title": "Community demand exists for a complete endpoint cheat sheet",
-          "confidence": "third-party-signal",
-          "url": "https://x.com/AlterEgo_eth/status/2056348741247136018"
-        },
-        {
-          "source": "X search",
-          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/1997352012959084996"
-        },
-        {
-          "source": "web/reddit search",
-          "title": "Builders are shipping resolution and market intelligence APIs",
-          "confidence": "third-party-signal",
-          "url": "https://www.reddit.com/r/Polymarket/comments/1sz4jw2/i_built_a_resolution_detection_api_for_polymarket/"
+          "source": "public X status search",
+          "title": "Recent official X developer messaging still emphasizes developer experience",
+          "confidence": "official-x-search-low-freshness",
+          "url": "https://x.com/Polymarket/status/2024514315823509826"
         }
       ]
     },
     {
       "id": "risk-compliance-monitor",
       "title": "Risk & Compliance Monitor",
-      "score": 7,
+      "score": 9,
       "matchedTerms": [
         "scam",
+        "fake",
         "key",
-        "wallet",
         "auth",
-        "security"
+        "approval"
       ],
       "recommendedAction": "Track developer safety risks and unverified links with careful wording, without accusations or account actions.",
       "evidence": [
         {
-          "source": "X search",
-          "title": "Builder ecosystem includes terminals, wallets, aggregators, bots, and AI agents",
-          "confidence": "source-needs-current-recheck",
-          "url": "https://x.com/primo_data/status/1997352012959084996"
+          "source": "official migration guide",
+          "title": "Builder attribution moved to a single builderCode field and pUSD is the new collateral",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/v2-migration"
         },
         {
-          "source": "web/reddit search",
-          "title": "Developer-targeted scam/link confusion risk exists",
-          "confidence": "third-party-risk-signal",
-          "url": "https://www.reddit.com/r/PolymarketTrading/comments/1qwfjzq/possible_scam_for_polymarket_developers/"
+          "source": "official builder docs",
+          "title": "Builder program still routes users toward profile creation, attribution, and gasless relayer usage",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/builders/overview"
+        },
+        {
+          "source": "official builder docs",
+          "title": "Verified builder tier still advertises leaderboard visibility, private Telegram, and weekly USDC rewards",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/developers/builders/builder-tiers"
+        },
+        {
+          "source": "official help center",
+          "title": "Official help center continues to deny any Polymarket token or airdrop",
+          "confidence": "official-help-high",
+          "url": "https://help.polymarket.com/en/articles/13364250-does-polymarket-have-a-token"
+        }
+      ]
+    },
+    {
+      "id": "market-intel-dashboard",
+      "title": "Market Intelligence Dashboard",
+      "score": 8,
+      "matchedTerms": [
+        "market",
+        "rewards",
+        "volume"
+      ],
+      "recommendedAction": "Convert official market/reward signals into read-only dashboard deltas, notable changes, and staleness flags.",
+      "evidence": [
+        {
+          "source": "official docs changelog",
+          "title": "Builder leaderboard and volume endpoints now expose builderCode",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
+        },
+        {
+          "source": "official docs changelog",
+          "title": "CLOB V2 is the live production target and V1 is no longer compatible",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
+        },
+        {
+          "source": "official migration guide",
+          "title": "Builder attribution moved to a single builderCode field and pUSD is the new collateral",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/v2-migration"
+        },
+        {
+          "source": "official builder docs",
+          "title": "Builder program still routes users toward profile creation, attribution, and gasless relayer usage",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/builders/overview"
+        },
+        {
+          "source": "official builder docs",
+          "title": "Verified builder tier still advertises leaderboard visibility, private Telegram, and weekly USDC rewards",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/developers/builders/builder-tiers"
+        }
+      ]
+    },
+    {
+      "id": "builder-profile-site",
+      "title": "Public Builder Profile Site",
+      "score": 8,
+      "matchedTerms": [
+        "builder",
+        "leaderboard",
+        "profile"
+      ],
+      "recommendedAction": "Keep the public Builder profile site deploy-ready and add evidence that explains the project, safety boundaries, and API value.",
+      "evidence": [
+        {
+          "source": "official docs changelog",
+          "title": "Builder leaderboard and volume endpoints now expose builderCode",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/changelog"
+        },
+        {
+          "source": "official migration guide",
+          "title": "Builder attribution moved to a single builderCode field and pUSD is the new collateral",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/v2-migration"
+        },
+        {
+          "source": "official builder docs",
+          "title": "Builder program still routes users toward profile creation, attribution, and gasless relayer usage",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/builders/overview"
+        },
+        {
+          "source": "official builder docs",
+          "title": "Verified builder tier still advertises leaderboard visibility, private Telegram, and weekly USDC rewards",
+          "confidence": "official-docs-high",
+          "url": "https://docs.polymarket.com/developers/builders/builder-tiers"
+        },
+        {
+          "source": "official builders site",
+          "title": "Builders landing page still markets grants and captures website, email, X, and Telegram fields",
+          "confidence": "official-site-high",
+          "url": "https://builders.polymarket.com/"
         }
       ]
     }

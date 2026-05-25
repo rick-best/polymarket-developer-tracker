@@ -43,9 +43,8 @@ Long description:
 
 Website URL:
 
-- Blocked until a stable public URL is published.
-- Prepared local site root: `site/`
-- Recommended first public target: GitHub Pages, Cloudflare Pages, Netlify, or Vercel.
+- `https://rick-best.github.io/polymarket-developer-tracker/`
+- Published from `site/` through GitHub Pages.
 
 Public proof currently available locally:
 
@@ -59,9 +58,8 @@ Public proof currently available locally:
 
 GitHub URL:
 
-- Blocked until a public repository is created or connected.
-- Current local workspace is not a Git checkout and has no `origin` remote.
-- Recommended: publish a public repository containing sanitized docs, site files, read-only scripts, and reports, excluding `.env`, `secure/`, wallets, private keys, API keys, SMTP secrets, and credential JSON.
+- `https://github.com/rick-best/polymarket-developer-tracker`
+- Public repository contains sanitized docs, site files, read-only scripts, generated public evidence, and guardrails.
 - Public package checklist: `docs/public-github-package.md`
 
 Reward/contribution address:
@@ -112,8 +110,6 @@ Email / X / Telegram:
 
 ## Submission Blockers
 
-- Stable public Website URL is missing.
-- Public GitHub repository URL is missing.
 - Final contact fields need user confirmation.
 - Official Builder profile/account page requires login.
 - Builder API key and Builder Code handling must remain secret.

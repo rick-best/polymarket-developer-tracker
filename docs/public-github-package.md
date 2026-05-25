@@ -4,6 +4,8 @@ Last updated: 2026-05-25
 
 Purpose: define what can be published to a public GitHub repository for Polymarket Builder Program review without exposing local credentials, operational notes, wallet secrets, server details, or private automation state.
 
+Current public repository: `https://github.com/rick-best/polymarket-developer-tracker`
+
 ## Public Repository Goal
 
 The public repository should prove that this is an active Polymarket ecosystem developer project:

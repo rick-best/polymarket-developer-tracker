@@ -2,6 +2,8 @@
 
 Goal: publish the static site in `site/` to a public URL that can be used as the Builders Program “Website URL”, without introducing server risk or any trading/wallet actions.
 
+Current public URL: `https://rick-best.github.io/polymarket-developer-tracker/`
+
 This project intentionally keeps the site static:
 - No visitor tracking requirement
 - No wallet connect prompts
@@ -49,7 +51,7 @@ Current recommendation: use a no-server static host and publish `site/` as-is. D
 
 ## Builder submission dependency
 
-This public URL is now a P1 blocker for official Builder Program participation. The Builders form asks for a Website URL; until `site/` is published at a stable public URL, the project can only prepare the application package and cannot make a strong official submission.
+This public URL is no longer blocked. The next Builder submission blockers are final contact fields, official form login state, and any Builder API key entry.
 
 Prepared submission package:
 

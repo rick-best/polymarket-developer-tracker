@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T17:35:40.109Z",
+  "generatedAt": "2026-05-24T18:14:38.785Z",
   "scope": "draft-only",
   "guardrails": [
     "No automatic GitHub comments, issues, PRs, pushes, or repository creation.",
@@ -101,7 +101,7 @@
             "state": "open",
             "comments": 1,
             "createdAt": "2026-05-08T20:25:51Z",
-            "updatedAt": "2026-05-24T14:35:50Z",
+            "updatedAt": "2026-05-24T17:58:56Z",
             "labels": [],
             "score": 3,
             "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
@@ -402,10 +402,141 @@
       {
         "repo": "Polymarket/clob-client",
         "source": "https://api.github.com/repos/Polymarket/clob-client/issues?state=open&per_page=12",
-        "ok": false,
-        "status": 403,
-        "error": "HTTP 403",
-        "issues": []
+        "ok": true,
+        "status": 200,
+        "error": "",
+        "issues": [
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 355,
+            "title": "<img width=\"987\" height=\"37\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2a9ab5ce-7261-43d8-aa78-3be736206ef8\" />",
+            "url": "https://github.com/Polymarket/clob-client/issues/355",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-05-08T13:52:34Z",
+            "updatedAt": "2026-05-08T13:52:34Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 354,
+            "title": "<!-- CURSOR_SUMMARY -->",
+            "url": "https://github.com/Polymarket/clob-client/issues/354",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-05-08T13:52:02Z",
+            "updatedAt": "2026-05-08T13:52:02Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 353,
+            "title": "<!-- CURSOR_SUMMARY -->",
+            "url": "https://github.com/Polymarket/clob-client/issues/353",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-05-08T13:51:43Z",
+            "updatedAt": "2026-05-08T13:51:43Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 352,
+            "title": "<img width=\"367\" height=\"166\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/739698e2-f6d9-4f9f-a312-fbd4e9f219ff\" />",
+            "url": "https://github.com/Polymarket/clob-client/issues/352",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-05-08T13:11:46Z",
+            "updatedAt": "2026-05-08T13:11:46Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 351,
+            "title": "can not sell ,show not enough balance",
+            "url": "https://github.com/Polymarket/clob-client/issues/351",
+            "state": "open",
+            "comments": 1,
+            "createdAt": "2026-05-07T14:17:17Z",
+            "updatedAt": "2026-05-07T14:17:52Z",
+            "labels": [],
+            "score": 1,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 350,
+            "title": "Issue with price not correct when putting limit order.",
+            "url": "https://github.com/Polymarket/clob-client/issues/350",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-04-26T18:07:07Z",
+            "updatedAt": "2026-04-26T18:07:07Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 347,
+            "title": "Announcement: HYDRA — Free regulatory market data feed for Polymarket/Kalshi bots",
+            "url": "https://github.com/Polymarket/clob-client/issues/347",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-04-09T21:47:15Z",
+            "updatedAt": "2026-04-09T21:47:15Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 345,
+            "title": "I encountered a recurring issue where my Limit Sell orders are being automatically canceled by the system after they are only partially filled.",
+            "url": "https://github.com/Polymarket/clob-client/issues/345",
+            "state": "open",
+            "comments": 1,
+            "createdAt": "2026-04-06T10:45:35Z",
+            "updatedAt": "2026-04-06T10:49:01Z",
+            "labels": [],
+            "score": 1,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 344,
+            "title": "createAndPostOrder returns 'balance: 0' on most markets despite valid balance (sigType=2, proxy wallet)",
+            "url": "https://github.com/Polymarket/clob-client/issues/344",
+            "state": "open",
+            "comments": 2,
+            "createdAt": "2026-04-04T15:40:01Z",
+            "updatedAt": "2026-04-04T16:29:55Z",
+            "labels": [],
+            "score": 3,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/clob-client",
+            "number": 343,
+            "title": "Find me and my crypto....???? S.N.",
+            "url": "https://github.com/Polymarket/clob-client/issues/343",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-04-03T22:08:12Z",
+            "updatedAt": "2026-04-03T22:08:12Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          }
+        ]
       },
       {
         "repo": "Polymarket/py-builder-relayer-client",
@@ -536,10 +667,89 @@
       {
         "repo": "Polymarket/polymarket-cli",
         "source": "https://api.github.com/repos/Polymarket/polymarket-cli/issues?state=open&per_page=12",
-        "ok": false,
-        "status": 403,
-        "error": "HTTP 403",
-        "issues": []
+        "ok": true,
+        "status": 200,
+        "error": "",
+        "issues": [
+          {
+            "repo": "Polymarket/polymarket-cli",
+            "number": 73,
+            "title": "order_version_mismatch recurrence on order submissions — polymarket-cli v0.1.5 (~25 days after #69 fix)",
+            "url": "https://github.com/Polymarket/polymarket-cli/issues/73",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-05-23T18:48:52Z",
+            "updatedAt": "2026-05-23T18:48:52Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/polymarket-cli",
+            "number": 71,
+            "title": "BUG in Gamma API `/events`'s closed param which default to `true` while doc says `false` (propagates to CLI)",
+            "url": "https://github.com/Polymarket/polymarket-cli/issues/71",
+            "state": "open",
+            "comments": 1,
+            "createdAt": "2026-05-18T11:55:19Z",
+            "updatedAt": "2026-05-20T18:56:12Z",
+            "labels": [],
+            "score": 3,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/polymarket-cli",
+            "number": 66,
+            "title": "Would we have V2?",
+            "url": "https://github.com/Polymarket/polymarket-cli/issues/66",
+            "state": "open",
+            "comments": 2,
+            "createdAt": "2026-04-28T02:09:03Z",
+            "updatedAt": "2026-04-29T12:45:55Z",
+            "labels": [],
+            "score": 1,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/polymarket-cli",
+            "number": 65,
+            "title": "Compile error on HEAD: `Option<NaiveDate>::to_string()` in src/output/data.rs:84",
+            "url": "https://github.com/Polymarket/polymarket-cli/issues/65",
+            "state": "open",
+            "comments": 3,
+            "createdAt": "2026-04-15T04:37:57Z",
+            "updatedAt": "2026-04-22T10:42:11Z",
+            "labels": [],
+            "score": 1,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/polymarket-cli",
+            "number": 64,
+            "title": "Feature Request: Add convert command for Neg Risk markets",
+            "url": "https://github.com/Polymarket/polymarket-cli/issues/64",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-04-09T10:02:02Z",
+            "updatedAt": "2026-04-09T10:02:02Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          },
+          {
+            "repo": "Polymarket/polymarket-cli",
+            "number": 63,
+            "title": "Title: After clicking on the sell order book, modifying the amount will not take effect even if you edit it.",
+            "url": "https://github.com/Polymarket/polymarket-cli/issues/63",
+            "state": "open",
+            "comments": 0,
+            "createdAt": "2026-04-06T10:51:12Z",
+            "updatedAt": "2026-04-06T10:51:12Z",
+            "labels": [],
+            "score": 0,
+            "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+          }
+        ]
       }
     ],
     "candidates": [
@@ -564,7 +774,20 @@
         "state": "open",
         "comments": 1,
         "createdAt": "2026-05-08T20:25:51Z",
-        "updatedAt": "2026-05-24T14:35:50Z",
+        "updatedAt": "2026-05-24T17:58:56Z",
+        "labels": [],
+        "score": 3,
+        "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+      },
+      {
+        "repo": "Polymarket/polymarket-cli",
+        "number": 71,
+        "title": "BUG in Gamma API `/events`'s closed param which default to `true` while doc says `false` (propagates to CLI)",
+        "url": "https://github.com/Polymarket/polymarket-cli/issues/71",
+        "state": "open",
+        "comments": 1,
+        "createdAt": "2026-05-18T11:55:19Z",
+        "updatedAt": "2026-05-20T18:56:12Z",
         "labels": [],
         "score": 3,
         "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
@@ -630,6 +853,19 @@
         "comments": 11,
         "createdAt": "2026-04-15T02:30:38Z",
         "updatedAt": "2026-04-26T01:24:33Z",
+        "labels": [],
+        "score": 3,
+        "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
+      },
+      {
+        "repo": "Polymarket/clob-client",
+        "number": 344,
+        "title": "createAndPostOrder returns 'balance: 0' on most markets despite valid balance (sigType=2, proxy wallet)",
+        "url": "https://github.com/Polymarket/clob-client/issues/344",
+        "state": "open",
+        "comments": 2,
+        "createdAt": "2026-04-04T15:40:01Z",
+        "updatedAt": "2026-04-04T16:29:55Z",
         "labels": [],
         "score": 3,
         "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
@@ -711,32 +947,6 @@
         "labels": [],
         "score": 2,
         "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
-      },
-      {
-        "repo": "Polymarket/py-builder-relayer-client",
-        "number": 10,
-        "title": "Type Error",
-        "url": "https://github.com/Polymarket/py-builder-relayer-client/issues/10",
-        "state": "open",
-        "comments": 0,
-        "createdAt": "2026-02-23T19:40:08Z",
-        "updatedAt": "2026-02-23T19:40:08Z",
-        "labels": [],
-        "score": 2,
-        "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
-      },
-      {
-        "repo": "Polymarket/py-builder-relayer-client",
-        "number": 16,
-        "title": "What's the correct way to call deployDepositWallet?",
-        "url": "https://github.com/Polymarket/py-builder-relayer-client/issues/16",
-        "state": "open",
-        "comments": 1,
-        "createdAt": "2026-05-05T05:42:59Z",
-        "updatedAt": "2026-05-15T23:59:51Z",
-        "labels": [],
-        "score": 1,
-        "candidateAction": "Review locally, reproduce with read-only or dry-run steps, then ask user before commenting, opening an issue, or submitting a PR."
       }
     ]
   },
@@ -747,7 +957,7 @@
     },
     {
       "title": "Daily intel draft",
-      "text": "Today s Polymarket builder priorities from official docs/GitHub/community signals: API Examples Kit, Community Support Desk, Market Intelligence Dashboard, Public Builder Profile Site. Turning these into read-only examples, issue candidates, and public proof before any trading integration. @PolymarketBuild"
+      "text": "Today s Polymarket builder priorities from official docs/GitHub/community signals: Community Support Desk, API Examples Kit, Risk & Compliance Monitor, Market Intelligence Dashboard. Turning these into read-only examples, issue candidates, and public proof before any trading integration. @PolymarketBuild"
     },
     {
       "title": "Safety positioning draft",
